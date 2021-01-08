@@ -145,7 +145,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 1228327600,
+  "duration": 1111175200,
   "status": "passed"
 });
 formatter.match({
@@ -158,14 +158,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 2734442100,
+  "duration": 2370149900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 739411600,
+  "duration": 466623600,
   "status": "passed"
 });
 formatter.scenario({
@@ -198,7 +198,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 341200,
+  "duration": 306900,
   "status": "passed"
 });
 formatter.match({
@@ -211,14 +211,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 35334700,
+  "duration": 29297100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 19079400,
+  "duration": 13245600,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 1794400,
+  "duration": 248100,
   "status": "passed"
 });
 formatter.match({
@@ -264,14 +264,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 50053300,
+  "duration": 31670600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 21434000,
+  "duration": 12770700,
   "status": "passed"
 });
 formatter.scenario({
@@ -304,7 +304,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 295400,
+  "duration": 292800,
   "status": "passed"
 });
 formatter.match({
@@ -317,14 +317,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 76315700,
+  "duration": 41897100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 19616400,
+  "duration": 10347300,
   "status": "passed"
 });
 formatter.scenario({
@@ -357,7 +357,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 372700,
+  "duration": 267100,
   "status": "passed"
 });
 formatter.match({
@@ -370,14 +370,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 37921000,
+  "duration": 24786800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 12125400,
+  "duration": 18848500,
   "status": "passed"
 });
 formatter.scenario({
@@ -410,7 +410,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 285700,
+  "duration": 256200,
   "status": "passed"
 });
 formatter.match({
@@ -423,14 +423,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 88252900,
+  "duration": 39145500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 14910600,
+  "duration": 19964700,
   "status": "passed"
 });
 formatter.scenario({
@@ -463,7 +463,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 267800,
+  "duration": 261500,
   "status": "passed"
 });
 formatter.match({
@@ -476,14 +476,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 32779800,
+  "duration": 26549500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 12551700,
+  "duration": 11496100,
   "status": "passed"
 });
 formatter.scenario({
@@ -516,7 +516,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 280700,
+  "duration": 254300,
   "status": "passed"
 });
 formatter.match({
@@ -529,14 +529,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 52123100,
+  "duration": 35665100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 14846800,
+  "duration": 10091700,
   "status": "passed"
 });
 formatter.scenario({
@@ -569,7 +569,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 1997500,
+  "duration": 272700,
   "status": "passed"
 });
 formatter.match({
@@ -582,14 +582,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 28688600,
+  "duration": 21261800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 67437000,
+  "duration": 11049100,
   "status": "passed"
 });
 formatter.scenario({
@@ -622,7 +622,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 403200,
+  "duration": 388500,
   "status": "passed"
 });
 formatter.match({
@@ -635,14 +635,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 69140300,
+  "duration": 25589200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 19303700,
+  "duration": 12870800,
   "status": "passed"
 });
 formatter.scenario({
@@ -672,34 +672,34 @@ formatter.match({
   "location": "stepdefs.queGeroUmCPF()"
 });
 formatter.result({
-  "duration": 123567400,
+  "duration": 146187500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.consultoOCPFGerado()"
 });
 formatter.result({
-  "duration": 66305800,
+  "duration": 43019200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCPFSemRestrição()"
 });
 formatter.result({
-  "duration": 74600,
+  "duration": 386500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 25,
-  "name": "Criar simulação com sucesso",
+  "name": "Criar simulação com sucesso com extremos mínimos",
   "description": "",
-  "id": "simulacoes;criar-simulação-com-sucesso",
+  "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-mínimos",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 26,
-  "name": "que configuro uma simulação com sucesso",
+  "name": "que configuro uma simulação com sucesso com valores mínimos",
   "keyword": "Given "
 });
 formatter.step({
@@ -713,24 +713,203 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMínimos()"
 });
 formatter.result({
-  "duration": 62774700,
+  "duration": 106587500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 613151700,
+  "duration": 210676200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
 });
 formatter.result({
-  "duration": 55235500,
+  "duration": 52400,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 30,
+  "name": "Criar simulação com sucesso com extremos máximos",
+  "description": "",
+  "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-máximos",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 31,
+  "name": "que configuro uma simulação com sucesso com valores máximos",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 32,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 33,
+  "name": "deve retornar status code de simulação adicionada",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMáximos()"
+});
+formatter.result({
+  "duration": 86140600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 82605400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
+});
+formatter.result({
+  "duration": 41500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 35,
+  "name": "Retornar erro quando criar simulação com CPF já existente",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-cpf-já-existente",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 36,
+  "name": "que configuro uma simulação com CPF já existente",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 37,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 38,
+  "name": "deve retornar status code de simulação com CPF já existente",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComCPFJáExistente()"
+});
+formatter.result({
+  "duration": 1224900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 38551600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente()"
+});
+formatter.result({
+  "duration": 71513400,
+  "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:103)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:38)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 40,
+  "name": "Retornar erro quando criar simulação com erro em regra de valores mínimos",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valores-mínimos",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 41,
+  "name": "que configuro uma simulação com erros em todas as regras com valores mínimos",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 42,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 43,
+  "name": "deve retornar status code de simulação com problema e a lista de erros de valores mínimos",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComErrosEmTodasAsRegrasComValoresMínimos()"
+});
+formatter.result({
+  "duration": 745500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 37465000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMínimos()"
+});
+formatter.result({
+  "duration": 39356000,
+  "error_message": "java.lang.AssertionError: \nExpected: is not null\n     but: was null\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMínimos(stepdefs.java:118)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a lista de erros de valores mínimos(src/test/java/features/Simulacoes.feature:43)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 45,
+  "name": "Retornar erro quando criar simulação com erro em regra de valores máximos",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valores-máximos",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 46,
+  "name": "que configuro uma simulação com erros em todas as regras com valores máximos",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 47,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "deve retornar status code de simulação com problema e a lista de erros de valores máximos",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComErrosEmTodasAsRegrasComValoresMáximos()"
+});
+formatter.result({
+  "duration": 1189300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 51237100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMáximos()"
+});
+formatter.result({
+  "duration": 26699700,
+  "error_message": "java.lang.AssertionError: \nExpected: is not null\n     but: was null\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMáximos(stepdefs.java:136)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a lista de erros de valores máximos(src/test/java/features/Simulacoes.feature:48)\r\n",
+  "status": "failed"
 });
 });
