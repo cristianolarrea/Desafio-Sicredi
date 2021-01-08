@@ -79,7 +79,5 @@ public class stepdefs implements Constants {
     public void deveRetornarStatusCodeDeSimulaçãoAdicionada() {
         response.then().log().all();
         assertEquals(201, response.statusCode());
-
-
     }
 }

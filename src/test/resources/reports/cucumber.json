@@ -1,0 +1,654 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1228327600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2734442100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"97093236014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "97093236014",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 739411600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 341200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35334700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"60094146012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60094146012",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19079400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1794400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50053300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"84809766080\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "84809766080",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21434000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 295400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76315700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"62648716050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "62648716050",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19616400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 372700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37921000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"26276298085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26276298085",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12125400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 285700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88252900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"01317496094\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01317496094",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14910600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 267800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32779800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"55856777050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55856777050",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12551700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 280700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52123100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"19626829001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19626829001",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14846800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28688600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"24094592008\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24094592008",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67437000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 403200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69140300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"58063164083\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "58063164083",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19303700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Consultar CPF sem restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-sem-restrição",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123567400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que gero um CPF",
+            "match": {
+              "location": "stepdefs.queGeroUmCPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66305800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "consulto o CPF gerado",
+            "match": {
+              "location": "stepdefs.consultoOCPFGerado()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "recebo o status code de CPF sem restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCPFSemRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Criar simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;criar-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62774700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 613151700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55235500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "deve retornar status code de simulação adicionada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Simulacoes",
+    "description": "",
+    "id": "simulacoes",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Simulacoes.feature"
+  }
+]
