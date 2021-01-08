@@ -1,10 +1,5 @@
 package pages;
 
-import gherkin.deps.com.google.gson.JsonArray;
-import gherkin.deps.com.google.gson.JsonObject;
-import gherkin.deps.com.google.gson.JsonParser;
-import io.restassured.path.json.JsonPath;
-import steps.stepdefs;
 
 public class SimulacoesMetodos {
     String nome, email;
@@ -62,11 +57,11 @@ public class SimulacoesMetodos {
     }
 
     public String configurarSimulacao(String cpf, String nome, String email, float valor, int parcela, boolean seguro) {
-        String corpoPost = "{\"cpf\": \"" + cpf + "\"," +
+        String corpoPost = "{\"cpf\": \""+cpf+"\" , " +
                 " \"nome\": \"" + nome + "\"," +
                 " \"email\": \"" + email + "\"," +
                 " \"valor\": \"" + valor + "\"," +
-                " \"parcela\": \"" + parcela + "\"," +
+                " \"parcelas\": \"" + parcela + "\"," +
                 " \"seguro\": \"" + seguro + "\"}";
         return corpoPost;
     }

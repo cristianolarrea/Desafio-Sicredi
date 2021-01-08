@@ -1,21 +1,13 @@
 package steps;
 
 import base.Constants;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
-import gherkin.deps.com.google.gson.JsonObject;
-import groovy.json.JsonOutput;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matchers;
-import org.junit.Assert;
 import pages.GeraCpf;
 import pages.SimulacoesMetodos;
-
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.containsStringIgnoringCase;
 import static org.junit.Assert.*;
 
 public class stepdefs implements Constants {
@@ -24,16 +16,15 @@ public class stepdefs implements Constants {
     RequestSpecification requestSpecification;
     String cpfConsultado;
     String cpfGerado;
-    double cpfGeradoDouble;
     String[] cpfComRestricao = {"97093236014", "60094146012", "84809766080", "62648716050", "26276298085", "01317496094",
     "55856777050", "19626829001", "24094592008", "58063164083"};
 
     @Given("^que quero consultar um CPF$")
     public void que_quero_consultar_um_CPF() {
-        RestAssured.baseURI = APP_BASE_URL;
-        RestAssured.port = APP_PORT;
-        RestAssured.basePath = "restricoes";
-        requestSpecification = RestAssured.given();
+        baseURI = APP_BASE_URL;
+        port = APP_PORT;
+        basePath = "restricoes";
+        requestSpecification = given();
     }
 
     @When("^consulto um \"([^\"]*)\"$")
@@ -52,10 +43,10 @@ public class stepdefs implements Constants {
 
     @Given("^que gero um CPF$")
     public void queGeroUmCPF() {
-        RestAssured.baseURI = APP_BASE_URL;
-        RestAssured.port = APP_PORT;
-        RestAssured.basePath = "restricoes";
-        requestSpecification = RestAssured.given();
+        baseURI = APP_BASE_URL;
+        port = APP_PORT;
+        basePath = "restricoes";
+        requestSpecification = given();
         GeraCpf geraCpf = new GeraCpf();
         cpfGerado = geraCpf.cpf(false);
     }
@@ -72,23 +63,23 @@ public class stepdefs implements Constants {
 
     @Given("^que configuro uma simulação com sucesso$")
     public void queConfiguroUmaSimulaçãoComSucesso() {
-        RestAssured.baseURI = APP_BASE_URL;
-        RestAssured.port = APP_PORT;
-        requestSpecification = RestAssured.given().body("{\"nome\": \"Joao Silva\"," +
-                "\"cpf\": 97994236514," +
-                "\"email\": \"email@email.com\"," +
-                "\"valor\": 1200," +
-                "\"parcelas\": 3," +
-                "\"seguro\": true}");
+        GeraCpf geraCpf = new GeraCpf();
+        cpfGerado = geraCpf.cpf(false);
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Joao Silva", "testes@teste.com", 20000f, 35, true );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @When("^solicito criar uma simulação$")
     public void solicitoCriarUmaSimulação() {
-        response = requestSpecification.post("/simulacoes");
+        response = requestSpecification.post("http://localhost:8080/api/v1/simulacoes");
     }
 
     @Then("^deve retornar status code de simulação adicionada$")
     public void deveRetornarStatusCodeDeSimulaçãoAdicionada() {
+        response.then().log().all();
         assertEquals(201, response.statusCode());
+
+
     }
 }
