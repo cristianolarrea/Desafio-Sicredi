@@ -145,7 +145,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 926100200,
+  "duration": 1275883300,
   "status": "passed"
 });
 formatter.match({
@@ -158,14 +158,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 2600807600,
+  "duration": 2968436600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 448505100,
+  "duration": 533334300,
   "status": "passed"
 });
 formatter.scenario({
@@ -198,7 +198,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 376600,
+  "duration": 367900,
   "status": "passed"
 });
 formatter.match({
@@ -211,14 +211,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 32405900,
+  "duration": 29271600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 14107700,
+  "duration": 12261500,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 271600,
+  "duration": 304400,
   "status": "passed"
 });
 formatter.match({
@@ -264,14 +264,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 65996500,
+  "duration": 40328600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 9719000,
+  "duration": 13332400,
   "status": "passed"
 });
 formatter.scenario({
@@ -304,7 +304,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 319400,
+  "duration": 368100,
   "status": "passed"
 });
 formatter.match({
@@ -317,14 +317,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 32662700,
+  "duration": 39845400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 11227300,
+  "duration": 16674700,
   "status": "passed"
 });
 formatter.scenario({
@@ -357,7 +357,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 1426000,
+  "duration": 284500,
   "status": "passed"
 });
 formatter.match({
@@ -370,14 +370,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 25010900,
+  "duration": 31589800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 8914600,
+  "duration": 13314300,
   "status": "passed"
 });
 formatter.scenario({
@@ -410,7 +410,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 245400,
+  "duration": 329100,
   "status": "passed"
 });
 formatter.match({
@@ -423,14 +423,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 34663900,
+  "duration": 31428900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 11111000,
+  "duration": 11450100,
   "status": "passed"
 });
 formatter.scenario({
@@ -463,7 +463,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 241000,
+  "duration": 292500,
   "status": "passed"
 });
 formatter.match({
@@ -476,14 +476,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 27882700,
+  "duration": 30112100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 12551300,
+  "duration": 11373300,
   "status": "passed"
 });
 formatter.scenario({
@@ -516,7 +516,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 235000,
+  "duration": 289200,
   "status": "passed"
 });
 formatter.match({
@@ -529,14 +529,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 31696200,
+  "duration": 34882300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 11948100,
+  "duration": 24487300,
   "status": "passed"
 });
 formatter.scenario({
@@ -569,7 +569,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 828200,
+  "duration": 408300,
   "status": "passed"
 });
 formatter.match({
@@ -582,14 +582,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 94900200,
+  "duration": 28061400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 26821500,
+  "duration": 9416200,
   "status": "passed"
 });
 formatter.scenario({
@@ -622,7 +622,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 417600,
+  "duration": 327000,
   "status": "passed"
 });
 formatter.match({
@@ -635,14 +635,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 24384800,
+  "duration": 30467700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 9791700,
+  "duration": 14270300,
   "status": "passed"
 });
 formatter.scenario({
@@ -672,43 +672,135 @@ formatter.match({
   "location": "stepdefs.queGeroUmCPF()"
 });
 formatter.result({
-  "duration": 114738200,
+  "duration": 223387900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.consultoOCPFGerado()"
 });
 formatter.result({
-  "duration": 33745400,
+  "duration": 22018500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCPFSemRestrição()"
 });
 formatter.result({
-  "duration": 83600,
+  "duration": 80800,
   "status": "passed"
 });
 formatter.scenario({
   "line": 25,
-  "name": "Criar simulação com sucesso (extremos mínimos)",
+  "name": "Consultar todas as simulações cadastradas",
   "description": "",
-  "id": "simulacoes;criar-simulação-com-sucesso-(extremos-mínimos)",
+  "id": "simulacoes;consultar-todas-as-simulações-cadastradas",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 26,
-  "name": "que configuro uma simulação com sucesso com valores mínimos",
+  "name": "que excluo todas as simulações existentes caso existam",
   "keyword": "Given "
 });
 formatter.step({
   "line": 27,
+  "name": "que configuro uma simulação com sucesso",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "solicito criar uma simulação",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "que configuro uma simulação com sucesso",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "solicito criar uma simulação",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "solicito consultar todas as simulaçoes cadastradas",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "deve retornar uma lista com as simulações cadastradas",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queExcluoTodasAsSimulaçõesExistentesCasoExistam()"
+});
+formatter.result({
+  "duration": 3030070000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+});
+formatter.result({
+  "duration": 41166400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 60517000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+});
+formatter.result({
+  "duration": 51147100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 26130600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoConsultarTodasAsSimulaçoesCadastradas()"
+});
+formatter.result({
+  "duration": 33739800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarUmaListaComAsSimulaçõesCadastradas()"
+});
+formatter.result({
+  "duration": 10871700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 34,
+  "name": "Criar simulação com sucesso com extremos mínimos",
+  "description": "",
+  "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-mínimos",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 35,
+  "name": "que configuro uma simulação com sucesso com valores mínimos",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 36,
   "name": "solicito criar uma simulação",
   "keyword": "When "
 });
 formatter.step({
-  "line": 28,
+  "line": 37,
   "name": "deve retornar status code de simulação adicionada",
   "keyword": "Then "
 });
@@ -716,43 +808,43 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMínimos()"
 });
 formatter.result({
-  "duration": 49639100,
+  "duration": 65162400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 71456400,
+  "duration": 23457600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
 });
 formatter.result({
-  "duration": 48600,
+  "duration": 49900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 30,
-  "name": "Criar simulação com sucesso (extremos máximos)",
+  "line": 39,
+  "name": "Criar simulação com sucesso com extremos máximos",
   "description": "",
-  "id": "simulacoes;criar-simulação-com-sucesso-(extremos-máximos)",
+  "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-máximos",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 31,
+  "line": 40,
   "name": "que configuro uma simulação com sucesso com valores máximos",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
+  "line": 41,
   "name": "solicito criar uma simulação",
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
+  "line": 42,
   "name": "deve retornar status code de simulação adicionada",
   "keyword": "Then "
 });
@@ -760,25 +852,25 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMáximos()"
 });
 formatter.result({
-  "duration": 43721400,
+  "duration": 48702300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 56566300,
+  "duration": 25435500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
 });
 formatter.result({
-  "duration": 40900,
+  "duration": 39400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 35,
+  "line": 44,
   "name": "Retornar erro quando criar simulação com CPF já existente",
   "description": "",
   "id": "simulacoes;retornar-erro-quando-criar-simulação-com-cpf-já-existente",
@@ -786,130 +878,377 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 36,
-  "name": "que configuro uma simulação com CPF já existente",
+  "line": 45,
+  "name": "que configuro uma simulação com sucesso",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 37,
+  "line": 46,
+  "name": "solicito criar uma simulação",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "configuro uma outra simulação com o mesmo CPF",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
   "name": "solicito criar uma simulação",
   "keyword": "When "
 });
 formatter.step({
-  "line": 38,
+  "line": 49,
   "name": "deve retornar status code de simulação com CPF já existente",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComCPFJáExistente()"
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 1154000,
+  "duration": 56822000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 36539800,
+  "duration": 23751900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.configuroUmaOutraSimulaçãoComOMesmoCPF()"
+});
+formatter.result({
+  "duration": 510000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 42917100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente()"
 });
 formatter.result({
-  "duration": 53393500,
-  "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:103)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:38)\r\n",
+  "duration": 52317200,
+  "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:99)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)\r\n",
   "status": "failed"
 });
 formatter.scenario({
-  "line": 40,
-  "name": "Retornar erro quando criar simulação com erro em regra de valores mínimos",
+  "line": 51,
+  "name": "Retornar erro quando criar simulação com erro em CPF",
   "description": "",
-  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valores-mínimos",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-cpf",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 41,
-  "name": "que configuro uma simulação com erros em todas as regras com valores mínimos",
+  "line": 52,
+  "name": "que configuro uma simulação com erro no formato do CPF",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 42,
+  "line": 53,
   "name": "solicito criar uma simulação",
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
-  "name": "deve retornar status code de simulação com problema e a lista de erros de valores mínimos",
+  "line": 54,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de CPF",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComErrosEmTodasAsRegrasComValoresMínimos()"
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoCPF()"
 });
 formatter.result({
-  "duration": 781500,
+  "duration": 40397600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 29941700,
+  "duration": 26626100,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMínimos()"
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF()"
 });
 formatter.result({
-  "duration": 17436800,
-  "error_message": "java.lang.AssertionError: \nExpected: is not null\n     but: was null\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMínimos(stepdefs.java:118)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a lista de erros de valores mínimos(src/test/java/features/Simulacoes.feature:43)\r\n",
+  "duration": 265000,
+  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:130)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)\r\n",
   "status": "failed"
 });
 formatter.scenario({
-  "line": 45,
-  "name": "Retornar erro quando criar simulação com erro em regra de valores máximos",
+  "line": 56,
+  "name": "Retornar erro quando criar simulação com erro em nome",
   "description": "",
-  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valores-máximos",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-nome",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 46,
-  "name": "que configuro uma simulação com erros em todas as regras com valores máximos",
+  "line": 57,
+  "name": "que configuro uma simulação com caracteres especiais no nome",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 47,
+  "line": 58,
   "name": "solicito criar uma simulação",
   "keyword": "When "
 });
 formatter.step({
-  "line": 48,
-  "name": "deve retornar status code de simulação com problema e a lista de erros de valores máximos",
+  "line": 59,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de nome",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComErrosEmTodasAsRegrasComValoresMáximos()"
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComCaracteresEspeciaisNoNome()"
 });
 formatter.result({
-  "duration": 827300,
+  "duration": 54012800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 31450600,
+  "duration": 22700500,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMáximos()"
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome()"
 });
 formatter.result({
-  "duration": 14658300,
-  "error_message": "java.lang.AssertionError: \nExpected: is \"Parcelas deve ser igual ou menor que 40000\"\n     but: was null\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMáximos(stepdefs.java:138)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a lista de erros de valores máximos(src/test/java/features/Simulacoes.feature:48)\r\n",
+  "duration": 267700,
+  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:145)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 61,
+  "name": "Retornar erro quando criar simulação com erro em email",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-email",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 62,
+  "name": "que configuro uma simulação com erro no formato do email",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 63,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 64,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de email",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoEmail()"
+});
+formatter.result({
+  "duration": 43647500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 18815700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail()"
+});
+formatter.result({
+  "duration": 16208900,
+  "error_message": "java.lang.AssertionError: \nExpected: is \"não é um endereço de e-mail\"\n     but: was \"E-mail deve ser um e-mail válido\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail(stepdefs.java:161)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de email(src/test/java/features/Simulacoes.feature:64)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 66,
+  "name": "Retornar erro quando criar simulação com erro em regra de valor mínimo",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valor-mínimo",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 67,
+  "name": "que configuro uma simulação com valor abaixo do mínimo permitido",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 68,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 69,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComValorAbaixoDoMínimoPermitido()"
+});
+formatter.result({
+  "duration": 42614500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 19108300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo()"
+});
+formatter.result({
+  "duration": 185000,
+  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:175)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 71,
+  "name": "Retornar erro quando criar simulação com erro em regra de valor máximo",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valor-máximo",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 72,
+  "name": "que configuro uma simulação com valor acima do máximo permitido",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 73,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 74,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de valor máximo",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComValorAcimaDoMáximoPermitido()"
+});
+formatter.result({
+  "duration": 33350300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 25027600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMáximo()"
+});
+formatter.result({
+  "duration": 13192600,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 76,
+  "name": "Retornar erro quando criar simulação com erro em regra de parcela mínima",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-parcela-mínima",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 77,
+  "name": "que configuro uma simulação com número de parcelas abaixo do mínimo permitido",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 78,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 79,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas mínimo",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAbaixoDoMínimoPermitido()"
+});
+formatter.result({
+  "duration": 41845000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 20406900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMínimo()"
+});
+formatter.result({
+  "duration": 11126400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 81,
+  "name": "Retornar erro quando criar simulação com erro em regra de parcela máxima",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-parcela-máxima",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 82,
+  "name": "que configuro uma simulação com número de parcelas acima do máximo permitido",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 83,
+  "name": "solicito criar uma simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 84,
+  "name": "deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAcimaDoMáximoPermitido()"
+});
+formatter.result({
+  "duration": 59044900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoCriarUmaSimulação()"
+});
+formatter.result({
+  "duration": 30153200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo()"
+});
+formatter.result({
+  "duration": 246700,
+  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:220)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)\r\n",
   "status": "failed"
 });
 });

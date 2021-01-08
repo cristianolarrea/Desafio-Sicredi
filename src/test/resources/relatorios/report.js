@@ -6,910 +6,102 @@ formatter.feature({
   "id": "simulacoes",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \u003cCPF\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 7,
-  "name": "",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;",
-  "rows": [
-    {
-      "cells": [
-        "CPF"
-      ],
-      "line": 8,
-      "id": "simulacoes;consultar-cpf-com-restrição;;1"
-    },
-    {
-      "cells": [
-        "\"97093236014\""
-      ],
-      "line": 9,
-      "id": "simulacoes;consultar-cpf-com-restrição;;2"
-    },
-    {
-      "cells": [
-        "\"60094146012\""
-      ],
-      "line": 10,
-      "id": "simulacoes;consultar-cpf-com-restrição;;3"
-    },
-    {
-      "cells": [
-        "\"84809766080\""
-      ],
-      "line": 11,
-      "id": "simulacoes;consultar-cpf-com-restrição;;4"
-    },
-    {
-      "cells": [
-        "\"62648716050\""
-      ],
-      "line": 12,
-      "id": "simulacoes;consultar-cpf-com-restrição;;5"
-    },
-    {
-      "cells": [
-        "\"26276298085\""
-      ],
-      "line": 13,
-      "id": "simulacoes;consultar-cpf-com-restrição;;6"
-    },
-    {
-      "cells": [
-        "\"01317496094\""
-      ],
-      "line": 14,
-      "id": "simulacoes;consultar-cpf-com-restrição;;7"
-    },
-    {
-      "cells": [
-        "\"55856777050\""
-      ],
-      "line": 15,
-      "id": "simulacoes;consultar-cpf-com-restrição;;8"
-    },
-    {
-      "cells": [
-        "\"19626829001\""
-      ],
-      "line": 16,
-      "id": "simulacoes;consultar-cpf-com-restrição;;9"
-    },
-    {
-      "cells": [
-        "\"24094592008\""
-      ],
-      "line": 17,
-      "id": "simulacoes;consultar-cpf-com-restrição;;10"
-    },
-    {
-      "cells": [
-        "\"58063164083\""
-      ],
-      "line": 18,
-      "id": "simulacoes;consultar-cpf-com-restrição;;11"
-    }
-  ],
-  "keyword": "Examples"
-});
 formatter.scenario({
-  "line": 9,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"97093236014\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 1111175200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "97093236014",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 2370149900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 466623600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"60094146012\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 306900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "60094146012",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 29297100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 13245600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"84809766080\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 248100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "84809766080",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 31670600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 12770700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 12,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;5",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"62648716050\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 292800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "62648716050",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 41897100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 10347300,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 13,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;6",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"26276298085\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 267100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "26276298085",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 24786800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 18848500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 14,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;7",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"01317496094\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 256200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "01317496094",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 39145500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 19964700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 15,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;8",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"55856777050\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 261500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "55856777050",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 26549500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 11496100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;9",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"19626829001\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 254300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "19626829001",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 35665100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 10091700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;10",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"24094592008\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 272700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "24094592008",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 21261800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 11049100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 18,
-  "name": "Consultar CPF com restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-com-restrição;;11",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "que quero consultar um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "consulto um \"58063164083\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "recebo o status code de cpf com restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.que_quero_consultar_um_CPF()"
-});
-formatter.result({
-  "duration": 388500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "58063164083",
-      "offset": 13
-    }
-  ],
-  "location": "stepdefs.consulto_um(String)"
-});
-formatter.result({
-  "duration": 25589200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
-});
-formatter.result({
-  "duration": 12870800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 20,
-  "name": "Consultar CPF sem restrição",
-  "description": "",
-  "id": "simulacoes;consultar-cpf-sem-restrição",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 21,
-  "name": "que gero um CPF",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 22,
-  "name": "consulto o CPF gerado",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 23,
-  "name": "recebo o status code de CPF sem restrição",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.queGeroUmCPF()"
-});
-formatter.result({
-  "duration": 146187500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.consultoOCPFGerado()"
-});
-formatter.result({
-  "duration": 43019200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.receboOStatusCodeDeCPFSemRestrição()"
-});
-formatter.result({
-  "duration": 386500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 25,
-  "name": "Criar simulação com sucesso com extremos mínimos",
-  "description": "",
-  "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-mínimos",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
   "line": 26,
-  "name": "que configuro uma simulação com sucesso com valores mínimos",
-  "keyword": "Given "
+  "name": "Consultar todas as simulações cadastradas",
+  "description": "",
+  "id": "simulacoes;consultar-todas-as-simulações-cadastradas",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 25,
+      "name": "@apenas"
+    }
+  ]
 });
 formatter.step({
   "line": 27,
-  "name": "solicito criar uma simulação",
-  "keyword": "When "
+  "name": "que excluo todas as simulações existentes caso existam",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 28,
-  "name": "deve retornar status code de simulação adicionada",
-  "keyword": "Then "
+  "name": "que configuro uma simulação com sucesso",
+  "keyword": "And "
 });
-formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMínimos()"
+formatter.step({
+  "line": 29,
+  "name": "solicito criar uma simulação",
+  "keyword": "And "
 });
-formatter.result({
-  "duration": 106587500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.solicitoCriarUmaSimulação()"
-});
-formatter.result({
-  "duration": 210676200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
-});
-formatter.result({
-  "duration": 52400,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.step({
   "line": 30,
-  "name": "Criar simulação com sucesso com extremos máximos",
-  "description": "",
-  "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-máximos",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "name": "que configuro uma simulação com sucesso",
+  "keyword": "And "
 });
 formatter.step({
   "line": 31,
-  "name": "que configuro uma simulação com sucesso com valores máximos",
-  "keyword": "Given "
+  "name": "solicito criar uma simulação",
+  "keyword": "And "
 });
 formatter.step({
   "line": 32,
-  "name": "solicito criar uma simulação",
-  "keyword": "When "
+  "name": "solicito consultar todas as simulaçoes cadastradas",
+  "keyword": "And "
 });
 formatter.step({
   "line": 33,
-  "name": "deve retornar status code de simulação adicionada",
+  "name": "deve retornar uma lista com as simulações cadastradas",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMáximos()"
+  "location": "stepdefs.queExcluoTodasAsSimulaçõesExistentesCasoExistam()"
 });
 formatter.result({
-  "duration": 86140600,
+  "duration": 4838119300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+});
+formatter.result({
+  "duration": 49078700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 82605400,
+  "duration": 94311900,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
+  "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 41500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 35,
-  "name": "Retornar erro quando criar simulação com CPF já existente",
-  "description": "",
-  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-cpf-já-existente",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 36,
-  "name": "que configuro uma simulação com CPF já existente",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 37,
-  "name": "solicito criar uma simulação",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 38,
-  "name": "deve retornar status code de simulação com CPF já existente",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComCPFJáExistente()"
-});
-formatter.result({
-  "duration": 1224900,
+  "duration": 54422200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 38551600,
+  "duration": 36881900,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente()"
+  "location": "stepdefs.solicitoConsultarTodasAsSimulaçoesCadastradas()"
 });
 formatter.result({
-  "duration": 71513400,
-  "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:103)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:38)\r\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "line": 40,
-  "name": "Retornar erro quando criar simulação com erro em regra de valores mínimos",
-  "description": "",
-  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valores-mínimos",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 41,
-  "name": "que configuro uma simulação com erros em todas as regras com valores mínimos",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 42,
-  "name": "solicito criar uma simulação",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 43,
-  "name": "deve retornar status code de simulação com problema e a lista de erros de valores mínimos",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComErrosEmTodasAsRegrasComValoresMínimos()"
-});
-formatter.result({
-  "duration": 745500,
+  "duration": 46207700,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepdefs.solicitoCriarUmaSimulação()"
+  "location": "stepdefs.deveRetornarUmaListaComAsSimulaçõesCadastradas()"
 });
 formatter.result({
-  "duration": 37465000,
+  "duration": 24267600,
   "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMínimos()"
-});
-formatter.result({
-  "duration": 39356000,
-  "error_message": "java.lang.AssertionError: \nExpected: is not null\n     but: was null\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMínimos(stepdefs.java:118)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a lista de erros de valores mínimos(src/test/java/features/Simulacoes.feature:43)\r\n",
-  "status": "failed"
-});
-formatter.scenario({
-  "line": 45,
-  "name": "Retornar erro quando criar simulação com erro em regra de valores máximos",
-  "description": "",
-  "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valores-máximos",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 46,
-  "name": "que configuro uma simulação com erros em todas as regras com valores máximos",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 47,
-  "name": "solicito criar uma simulação",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 48,
-  "name": "deve retornar status code de simulação com problema e a lista de erros de valores máximos",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefs.queConfiguroUmaSimulaçãoComErrosEmTodasAsRegrasComValoresMáximos()"
-});
-formatter.result({
-  "duration": 1189300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.solicitoCriarUmaSimulação()"
-});
-formatter.result({
-  "duration": 51237100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMáximos()"
-});
-formatter.result({
-  "duration": 26699700,
-  "error_message": "java.lang.AssertionError: \nExpected: is not null\n     but: was null\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAListaDeErrosDeValoresMáximos(stepdefs.java:136)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a lista de erros de valores máximos(src/test/java/features/Simulacoes.feature:48)\r\n",
-  "status": "failed"
 });
 });
