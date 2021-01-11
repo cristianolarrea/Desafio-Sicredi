@@ -261,32 +261,44 @@ public class stepdefs implements Constants {
 
     @And("^informo a alteração que desejo realizar no CPF$")
     public void informoAAlteraçãoQueDesejoRealizarNoCPF() {
-        requestSpecification = RestAssured.given().body("{\"cpf\": \"978.654.312-00\"}").contentType(APP_CONTENT_TYPE);
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao("97865431200", "Joao Silva", "testes@teste.com", 20000f, 35, false );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @And("^informo a alteração que desejo realizar no nome$")
     public void informoAAlteraçãoQueDesejoRealizarNoNome() {
-        requestSpecification = RestAssured.given().body("{\"nome\": \"Fulano de Tal\"}").contentType(APP_CONTENT_TYPE);;
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Fulano de Tal", "testes@teste.com", 20000f, 35, false );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @And("^informo a alteração que desejo realizar no email$")
     public void informoAAlteraçãoQueDesejoRealizarNoEmail() {
-        requestSpecification = RestAssured.given().body("{\"email\": \"fulanodetal@teste.com\"}").contentType(APP_CONTENT_TYPE);;
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Joao Silva", "testes_alteracao@teste.com", 20000f, 35, false );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @And("^informo a alteração que desejo realizar no valor$")
     public void informoAAlteraçãoQueDesejoRealizarNoValor() {
-        requestSpecification = RestAssured.given().body("{\"valor\": 30600}").contentType(APP_CONTENT_TYPE);;
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Joao Silva", "testes@teste.com", 123456f, 35, false );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @And("^informo a alteração que desejo realizar no número de parcelas$")
     public void informoAAlteraçãoQueDesejoRealizarNoNúmeroDeParcelas() {
-        requestSpecification = RestAssured.given().body("{\"parcelas\": 27}").contentType(APP_CONTENT_TYPE);;
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Joao Silva", "testes@teste.com", 20000f, 27, false );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @And("^informo a alteração que desejo realizar no seguro$")
     public void informoAAlteraçãoQueDesejoRealizarNoSeguro() {
-        requestSpecification = RestAssured.given().body("{\"seguro\": true}").contentType(APP_CONTENT_TYPE);;
+        SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
+        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Joao Silva", "testes@teste.com", 20000f, 35, true );
+        requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
     @Given("^que tenho um CPF não cadastrado$")

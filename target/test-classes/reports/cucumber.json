@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1292796500,
+              "duration": 1189769100,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2716473600,
+              "duration": 3124535600,
               "status": "passed"
             },
             "line": 5,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1140190900,
+              "duration": 450435800,
               "status": "passed"
             },
             "line": 6,
@@ -67,7 +67,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1162000,
+              "duration": 890100,
               "status": "passed"
             },
             "line": 4,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 37110300,
+              "duration": 224812400,
               "status": "passed"
             },
             "line": 5,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 16570800,
+              "duration": 23589400,
               "status": "passed"
             },
             "line": 6,
@@ -122,7 +122,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1154800,
+              "duration": 2490500,
               "status": "passed"
             },
             "line": 4,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 39818800,
+              "duration": 134681700,
               "status": "passed"
             },
             "line": 5,
@@ -155,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 15908200,
+              "duration": 16525200,
               "status": "passed"
             },
             "line": 6,
@@ -177,7 +177,7 @@
         "steps": [
           {
             "result": {
-              "duration": 271700,
+              "duration": 299300,
               "status": "passed"
             },
             "line": 4,
@@ -189,7 +189,7 @@
           },
           {
             "result": {
-              "duration": 38453300,
+              "duration": 410905100,
               "status": "passed"
             },
             "line": 5,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 11106100,
+              "duration": 16764800,
               "status": "passed"
             },
             "line": 6,
@@ -232,7 +232,7 @@
         "steps": [
           {
             "result": {
-              "duration": 314700,
+              "duration": 279200,
               "status": "passed"
             },
             "line": 4,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 42363000,
+              "duration": 108305300,
               "status": "passed"
             },
             "line": 5,
@@ -265,7 +265,7 @@
           },
           {
             "result": {
-              "duration": 10934500,
+              "duration": 79313000,
               "status": "passed"
             },
             "line": 6,
@@ -287,7 +287,7 @@
         "steps": [
           {
             "result": {
-              "duration": 303200,
+              "duration": 268400,
               "status": "passed"
             },
             "line": 4,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 38829800,
+              "duration": 71484500,
               "status": "passed"
             },
             "line": 5,
@@ -320,7 +320,7 @@
           },
           {
             "result": {
-              "duration": 15781200,
+              "duration": 13268400,
               "status": "passed"
             },
             "line": 6,
@@ -342,7 +342,7 @@
         "steps": [
           {
             "result": {
-              "duration": 333300,
+              "duration": 356600,
               "status": "passed"
             },
             "line": 4,
@@ -354,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 79436300,
+              "duration": 67761400,
               "status": "passed"
             },
             "line": 5,
@@ -375,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 102421600,
+              "duration": 31423300,
               "status": "passed"
             },
             "line": 6,
@@ -397,7 +397,7 @@
         "steps": [
           {
             "result": {
-              "duration": 322900,
+              "duration": 293700,
               "status": "passed"
             },
             "line": 4,
@@ -409,7 +409,7 @@
           },
           {
             "result": {
-              "duration": 69716000,
+              "duration": 162068700,
               "status": "passed"
             },
             "line": 5,
@@ -430,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 18007100,
+              "duration": 28987100,
               "status": "passed"
             },
             "line": 6,
@@ -452,7 +452,7 @@
         "steps": [
           {
             "result": {
-              "duration": 321000,
+              "duration": 533300,
               "status": "passed"
             },
             "line": 4,
@@ -464,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 36024200,
+              "duration": 365051700,
               "status": "passed"
             },
             "line": 5,
@@ -485,7 +485,7 @@
           },
           {
             "result": {
-              "duration": 15939400,
+              "duration": 39247700,
               "status": "passed"
             },
             "line": 6,
@@ -507,7 +507,7 @@
         "steps": [
           {
             "result": {
-              "duration": 346200,
+              "duration": 2626200,
               "status": "passed"
             },
             "line": 4,
@@ -519,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 41214400,
+              "duration": 86602000,
               "status": "passed"
             },
             "line": 5,
@@ -540,7 +540,7 @@
           },
           {
             "result": {
-              "duration": 21446000,
+              "duration": 23719100,
               "status": "passed"
             },
             "line": 6,
@@ -562,7 +562,7 @@
         "steps": [
           {
             "result": {
-              "duration": 339231100,
+              "duration": 401774400,
               "status": "passed"
             },
             "line": 21,
@@ -574,7 +574,7 @@
           },
           {
             "result": {
-              "duration": 113388300,
+              "duration": 141267100,
               "status": "passed"
             },
             "line": 22,
@@ -586,7 +586,7 @@
           },
           {
             "result": {
-              "duration": 290300,
+              "duration": 91800,
               "status": "passed"
             },
             "line": 23,
@@ -608,7 +608,7 @@
         "steps": [
           {
             "result": {
-              "duration": 751961100,
+              "duration": 424514200,
               "status": "passed"
             },
             "line": 26,
@@ -620,7 +620,7 @@
           },
           {
             "result": {
-              "duration": 117382200,
+              "duration": 121399800,
               "status": "passed"
             },
             "line": 27,
@@ -632,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 641618400,
+              "duration": 693523700,
               "status": "passed"
             },
             "line": 28,
@@ -644,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 55297400,
+              "duration": 53647700,
               "status": "passed"
             },
             "line": 29,
@@ -656,7 +656,7 @@
           },
           {
             "result": {
-              "duration": 46635100,
+              "duration": 106946300,
               "status": "passed"
             },
             "line": 30,
@@ -668,7 +668,7 @@
           },
           {
             "result": {
-              "duration": 39132700,
+              "duration": 53070000,
               "status": "passed"
             },
             "line": 31,
@@ -680,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 13620000,
+              "duration": 33585300,
               "status": "passed"
             },
             "line": 32,
@@ -702,7 +702,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58040700,
+              "duration": 75484300,
               "status": "passed"
             },
             "line": 35,
@@ -714,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 31974300,
+              "duration": 137860300,
               "status": "passed"
             },
             "line": 36,
@@ -726,7 +726,7 @@
           },
           {
             "result": {
-              "duration": 47500,
+              "duration": 50200,
               "status": "passed"
             },
             "line": 37,
@@ -748,7 +748,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53514600,
+              "duration": 125262100,
               "status": "passed"
             },
             "line": 40,
@@ -760,7 +760,7 @@
           },
           {
             "result": {
-              "duration": 30128200,
+              "duration": 98698400,
               "status": "passed"
             },
             "line": 41,
@@ -772,7 +772,7 @@
           },
           {
             "result": {
-              "duration": 40400,
+              "duration": 47800,
               "status": "passed"
             },
             "line": 42,
@@ -794,7 +794,7 @@
         "steps": [
           {
             "result": {
-              "duration": 50631300,
+              "duration": 133996200,
               "status": "passed"
             },
             "line": 45,
@@ -806,7 +806,7 @@
           },
           {
             "result": {
-              "duration": 37526100,
+              "duration": 103007800,
               "status": "passed"
             },
             "line": 46,
@@ -818,7 +818,7 @@
           },
           {
             "result": {
-              "duration": 1093600,
+              "duration": 673900,
               "status": "passed"
             },
             "line": 47,
@@ -830,7 +830,7 @@
           },
           {
             "result": {
-              "duration": 85311200,
+              "duration": 80782900,
               "status": "passed"
             },
             "line": 48,
@@ -842,7 +842,7 @@
           },
           {
             "result": {
-              "duration": 51911000,
+              "duration": 114274400,
               "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:102)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)\r\n",
               "status": "failed"
             },
@@ -865,7 +865,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58116000,
+              "duration": 96769300,
               "status": "passed"
             },
             "line": 52,
@@ -877,7 +877,7 @@
           },
           {
             "result": {
-              "duration": 40179600,
+              "duration": 40293500,
               "status": "passed"
             },
             "line": 53,
@@ -889,7 +889,7 @@
           },
           {
             "result": {
-              "duration": 218900,
+              "duration": 259100,
               "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:133)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)\r\n",
               "status": "failed"
             },
@@ -912,7 +912,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76862000,
+              "duration": 93663100,
               "status": "passed"
             },
             "line": 57,
@@ -924,7 +924,7 @@
           },
           {
             "result": {
-              "duration": 168027500,
+              "duration": 39524300,
               "status": "passed"
             },
             "line": 58,
@@ -936,7 +936,7 @@
           },
           {
             "result": {
-              "duration": 245500,
+              "duration": 295800,
               "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:148)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)\r\n",
               "status": "failed"
             },
@@ -959,7 +959,7 @@
         "steps": [
           {
             "result": {
-              "duration": 71157600,
+              "duration": 115319900,
               "status": "passed"
             },
             "line": 62,
@@ -971,7 +971,7 @@
           },
           {
             "result": {
-              "duration": 85564300,
+              "duration": 142255700,
               "status": "passed"
             },
             "line": 63,
@@ -983,7 +983,7 @@
           },
           {
             "result": {
-              "duration": 21228300,
+              "duration": 25719100,
               "error_message": "java.lang.AssertionError: \nExpected: is \"não é um endereço de e-mail\"\n     but: was \"E-mail deve ser um e-mail válido\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail(stepdefs.java:164)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de email(src/test/java/features/Simulacoes.feature:64)\r\n",
               "status": "failed"
             },
@@ -1006,7 +1006,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53085500,
+              "duration": 79024300,
               "status": "passed"
             },
             "line": 67,
@@ -1018,7 +1018,7 @@
           },
           {
             "result": {
-              "duration": 27055600,
+              "duration": 33549600,
               "status": "passed"
             },
             "line": 68,
@@ -1030,7 +1030,7 @@
           },
           {
             "result": {
-              "duration": 235500,
+              "duration": 320600,
               "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:178)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)\r\n",
               "status": "failed"
             },
@@ -1053,7 +1053,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61660600,
+              "duration": 80528000,
               "status": "passed"
             },
             "line": 72,
@@ -1065,7 +1065,7 @@
           },
           {
             "result": {
-              "duration": 100257200,
+              "duration": 39546200,
               "status": "passed"
             },
             "line": 73,
@@ -1077,7 +1077,7 @@
           },
           {
             "result": {
-              "duration": 15980900,
+              "duration": 28448600,
               "status": "passed"
             },
             "line": 74,
@@ -1099,7 +1099,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76948700,
+              "duration": 113009200,
               "status": "passed"
             },
             "line": 77,
@@ -1111,7 +1111,7 @@
           },
           {
             "result": {
-              "duration": 22672000,
+              "duration": 85294500,
               "status": "passed"
             },
             "line": 78,
@@ -1123,7 +1123,7 @@
           },
           {
             "result": {
-              "duration": 31633600,
+              "duration": 13619000,
               "status": "passed"
             },
             "line": 79,
@@ -1145,7 +1145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 72619900,
+              "duration": 64597300,
               "status": "passed"
             },
             "line": 82,
@@ -1157,7 +1157,7 @@
           },
           {
             "result": {
-              "duration": 30896300,
+              "duration": 40726700,
               "status": "passed"
             },
             "line": 83,
@@ -1169,7 +1169,7 @@
           },
           {
             "result": {
-              "duration": 272100,
+              "duration": 302700,
               "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:223)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)\r\n",
               "status": "failed"
             },
@@ -1192,7 +1192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54998000,
+              "duration": 57485800,
               "status": "passed"
             },
             "line": 87,
@@ -1204,7 +1204,7 @@
           },
           {
             "result": {
-              "duration": 34273500,
+              "duration": 36927200,
               "status": "passed"
             },
             "line": 88,
@@ -1216,7 +1216,7 @@
           },
           {
             "result": {
-              "duration": 1013000,
+              "duration": 887000,
               "status": "passed"
             },
             "line": 89,
@@ -1228,7 +1228,7 @@
           },
           {
             "result": {
-              "duration": 179968700,
+              "duration": 219484200,
               "status": "passed"
             },
             "line": 90,
@@ -1240,7 +1240,7 @@
           },
           {
             "result": {
-              "duration": 2991900,
+              "duration": 6424300,
               "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)\r\n",
               "status": "failed"
             },
@@ -1263,7 +1263,7 @@
         "steps": [
           {
             "result": {
-              "duration": 102153800,
+              "duration": 92937800,
               "status": "passed"
             },
             "line": 94,
@@ -1275,7 +1275,7 @@
           },
           {
             "result": {
-              "duration": 38775200,
+              "duration": 44864100,
               "status": "passed"
             },
             "line": 95,
@@ -1287,7 +1287,7 @@
           },
           {
             "result": {
-              "duration": 489000,
+              "duration": 528000,
               "status": "passed"
             },
             "line": 96,
@@ -1299,7 +1299,7 @@
           },
           {
             "result": {
-              "duration": 95319800,
+              "duration": 114482000,
               "status": "passed"
             },
             "line": 97,
@@ -1311,7 +1311,7 @@
           },
           {
             "result": {
-              "duration": 3063900,
+              "duration": 9080600,
               "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)\r\n",
               "status": "failed"
             },
@@ -1334,7 +1334,7 @@
         "steps": [
           {
             "result": {
-              "duration": 96679600,
+              "duration": 85350700,
               "status": "passed"
             },
             "line": 101,
@@ -1346,7 +1346,7 @@
           },
           {
             "result": {
-              "duration": 47331600,
+              "duration": 52897800,
               "status": "passed"
             },
             "line": 102,
@@ -1358,7 +1358,7 @@
           },
           {
             "result": {
-              "duration": 437400,
+              "duration": 1142200,
               "status": "passed"
             },
             "line": 103,
@@ -1370,7 +1370,7 @@
           },
           {
             "result": {
-              "duration": 147361800,
+              "duration": 89153500,
               "status": "passed"
             },
             "line": 104,
@@ -1382,7 +1382,7 @@
           },
           {
             "result": {
-              "duration": 8136600,
+              "duration": 2842900,
               "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)\r\n",
               "status": "failed"
             },
@@ -1405,7 +1405,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78624500,
+              "duration": 93666100,
               "status": "passed"
             },
             "line": 108,
@@ -1417,7 +1417,7 @@
           },
           {
             "result": {
-              "duration": 35812200,
+              "duration": 97274400,
               "status": "passed"
             },
             "line": 109,
@@ -1429,7 +1429,7 @@
           },
           {
             "result": {
-              "duration": 528300,
+              "duration": 1677100,
               "status": "passed"
             },
             "line": 110,
@@ -1441,7 +1441,7 @@
           },
           {
             "result": {
-              "duration": 80758400,
+              "duration": 87316700,
               "status": "passed"
             },
             "line": 111,
@@ -1453,7 +1453,7 @@
           },
           {
             "result": {
-              "duration": 1805400,
+              "duration": 2262700,
               "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)\r\n",
               "status": "failed"
             },
@@ -1476,7 +1476,7 @@
         "steps": [
           {
             "result": {
-              "duration": 68814000,
+              "duration": 120537100,
               "status": "passed"
             },
             "line": 115,
@@ -1488,7 +1488,7 @@
           },
           {
             "result": {
-              "duration": 30172400,
+              "duration": 43180900,
               "status": "passed"
             },
             "line": 116,
@@ -1500,7 +1500,7 @@
           },
           {
             "result": {
-              "duration": 2422600,
+              "duration": 592000,
               "status": "passed"
             },
             "line": 117,
@@ -1512,7 +1512,7 @@
           },
           {
             "result": {
-              "duration": 85779900,
+              "duration": 88241000,
               "status": "passed"
             },
             "line": 118,
@@ -1524,7 +1524,7 @@
           },
           {
             "result": {
-              "duration": 1974700,
+              "duration": 3059800,
               "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)\r\n",
               "status": "failed"
             },
@@ -1547,7 +1547,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61533800,
+              "duration": 62938400,
               "status": "passed"
             },
             "line": 122,
@@ -1559,7 +1559,7 @@
           },
           {
             "result": {
-              "duration": 28541700,
+              "duration": 33141400,
               "status": "passed"
             },
             "line": 123,
@@ -1571,7 +1571,7 @@
           },
           {
             "result": {
-              "duration": 490700,
+              "duration": 477900,
               "status": "passed"
             },
             "line": 124,
@@ -1583,7 +1583,7 @@
           },
           {
             "result": {
-              "duration": 94415700,
+              "duration": 87064800,
               "status": "passed"
             },
             "line": 125,
@@ -1595,7 +1595,7 @@
           },
           {
             "result": {
-              "duration": 4012100,
+              "duration": 1482000,
               "status": "passed"
             },
             "line": 126,
@@ -1617,7 +1617,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58477200,
+              "duration": 49311500,
               "status": "passed"
             },
             "line": 129,
@@ -1629,7 +1629,7 @@
           },
           {
             "result": {
-              "duration": 22265300,
+              "duration": 18733500,
               "status": "passed"
             },
             "line": 130,
@@ -1641,7 +1641,7 @@
           },
           {
             "result": {
-              "duration": 282700,
+              "duration": 251400,
               "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeCPFNãoEncontrado(stepdefs.java:301)\r\n\tat ✽.Then deve retornar status code de CPF não encontrado(src/test/java/features/Simulacoes.feature:131)\r\n",
               "status": "failed"
             },
@@ -1664,7 +1664,7 @@
         "steps": [
           {
             "result": {
-              "duration": 91584000,
+              "duration": 66699400,
               "status": "passed"
             },
             "line": 134,
@@ -1676,7 +1676,7 @@
           },
           {
             "result": {
-              "duration": 31060600,
+              "duration": 28985300,
               "status": "passed"
             },
             "line": 135,
@@ -1688,7 +1688,7 @@
           },
           {
             "result": {
-              "duration": 17693700,
+              "duration": 22021400,
               "status": "passed"
             },
             "line": 136,
@@ -1700,7 +1700,7 @@
           },
           {
             "result": {
-              "duration": 77284100,
+              "duration": 94826300,
               "status": "passed"
             },
             "line": 137,
@@ -1712,7 +1712,7 @@
           },
           {
             "result": {
-              "duration": 226800,
+              "duration": 324600,
               "error_message": "java.lang.AssertionError: expected:\u003c204\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso(stepdefs.java:317)\r\n\tat ✽.Then deve retornar status code de deletada com sucesso(src/test/java/features/Simulacoes.feature:138)\r\n",
               "status": "failed"
             },
@@ -1735,7 +1735,7 @@
         "steps": [
           {
             "result": {
-              "duration": 182900,
+              "duration": 201600,
               "status": "passed"
             },
             "line": 141,
@@ -1747,7 +1747,7 @@
           },
           {
             "result": {
-              "duration": 31411100,
+              "duration": 45320500,
               "status": "passed"
             },
             "line": 142,
@@ -1759,7 +1759,7 @@
           },
           {
             "result": {
-              "duration": 782800,
+              "duration": 670400,
               "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoNãoEncontrada(stepdefs.java:328)\r\n\tat ✽.Then deve retornar status code de simulação não encontrada(src/test/java/features/Simulacoes.feature:143)\r\n",
               "status": "failed"
             },
