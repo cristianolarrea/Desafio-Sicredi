@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="13" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="31" time="7.65373">
-<testcase classname="Simulacoes" name="Consultar CPF com restrição" time="4.051074">
+<testsuite failures="14" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="31" time="10.05544">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição" time="4.88955">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "97093236014"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 2" time="0.052831">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 2" time="0.067322">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "60094146012"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 3" time="0.064809">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 3" time="0.072097">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "84809766080"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 4" time="0.066462">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 4" time="0.085512">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "62648716050"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 5" time="0.049768">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 5" time="0.047997">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "26276298085"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 6" time="0.057808">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 6" time="0.04332">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "01317496094"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 7" time="0.040582">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 7" time="0.041321">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "55856777050"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 8" time="0.107309">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 8" time="0.060924">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "19626829001"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 9" time="0.087859">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 9" time="0.036902">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "24094592008"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF com restrição 10" time="0.04272">
+<testcase classname="Simulacoes" name="Consultar CPF com restrição 10" time="0.038573">
 <system-out><![CDATA[Given que quero consultar um CPF............................................passed
 When consulto um "58063164083"..............................................passed
 Then recebo o status code de cpf com restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar CPF sem restrição" time="0.180268">
+<testcase classname="Simulacoes" name="Consultar CPF sem restrição" time="0.123038">
 <system-out><![CDATA[Given que gero um CPF.......................................................passed
 When consulto o CPF gerado..................................................passed
 Then recebo o status code de CPF sem restrição..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Consultar todas as simulações cadastradas" time="1.137136">
+<testcase classname="Simulacoes" name="Consultar todas as simulações cadastradas" time="1.117548">
 <system-out><![CDATA[Given que excluo todas as simulações existentes caso existam................passed
 And que configuro uma simulação com sucesso.................................passed
 And solicito criar uma simulação............................................passed
@@ -76,20 +76,20 @@ And solicito consultar todas as simulaçoes cadastradas......................pas
 Then deve retornar uma lista com as simulações cadastradas..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Criar simulação com sucesso com extremos mínimos" time="0.085851">
+<testcase classname="Simulacoes" name="Criar simulação com sucesso com extremos mínimos" time="0.0985">
 <system-out><![CDATA[Given que configuro uma simulação com sucesso com valores mínimos...........passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação adicionada......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Criar simulação com sucesso com extremos máximos" time="0.061836">
+<testcase classname="Simulacoes" name="Criar simulação com sucesso com extremos máximos" time="0.102437">
 <system-out><![CDATA[Given que configuro uma simulação com sucesso com valores máximos...........passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação adicionada......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com CPF já existente" time="0.146787">
-<failure message="java.lang.AssertionError: expected:&lt;409&gt; but was:&lt;400&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:101)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com CPF já existente" time="0.286954">
+<failure message="java.lang.AssertionError: expected:&lt;409&gt; but was:&lt;400&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:102)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 And solicito criar uma simulação............................................passed
 And configuro uma outra simulação com o mesmo CPF...........................passed
 When solicito criar uma simulação...........................................passed
@@ -101,12 +101,12 @@ java.lang.AssertionError: expected:<409> but was:<400>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:101)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:102)
 	at ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em CPF" time="0.068436">
-<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:132)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)&#13;&#10;"><![CDATA[Given que configuro uma simulação com erro no formato do CPF................passed
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em CPF" time="0.206058">
+<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:133)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)&#13;&#10;"><![CDATA[Given que configuro uma simulação com erro no formato do CPF................passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação com problema e a mensagem de erro de CPF.failed
 
@@ -116,12 +116,12 @@ java.lang.AssertionError: expected:<400> but was:<201>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:132)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:133)
 	at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em nome" time="0.064177">
-<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:147)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)&#13;&#10;"><![CDATA[Given que configuro uma simulação com caracteres especiais no nome..........passed
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em nome" time="0.152267">
+<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:148)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)&#13;&#10;"><![CDATA[Given que configuro uma simulação com caracteres especiais no nome..........passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação com problema e a mensagem de erro de nome.failed
 
@@ -131,18 +131,28 @@ java.lang.AssertionError: expected:<400> but was:<201>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:147)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:148)
 	at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em email" time="0.072178">
-<system-out><![CDATA[Given que configuro uma simulação com erro no formato do email..............passed
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em email" time="0.286085">
+<failure message="java.lang.AssertionError: &#10;Expected: is &quot;não é um endereço de e-mail&quot;&#10;     but: was &quot;E-mail deve ser um e-mail válido&quot;&#13;&#10;&#9;at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)&#13;&#10;&#9;at org.junit.Assert.assertThat(Assert.java:956)&#13;&#10;&#9;at org.junit.Assert.assertThat(Assert.java:923)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail(stepdefs.java:164)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de email(src/test/java/features/Simulacoes.feature:64)&#13;&#10;"><![CDATA[Given que configuro uma simulação com erro no formato do email..............passed
 When solicito criar uma simulação...........................................passed
-Then deve retornar status code de simulação com problema e a mensagem de erro de email.passed
-]]></system-out>
+Then deve retornar status code de simulação com problema e a mensagem de erro de email.failed
+
+StackTrace:
+java.lang.AssertionError: 
+Expected: is "não é um endereço de e-mail"
+     but: was "E-mail deve ser um e-mail válido"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail(stepdefs.java:164)
+	at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de email(src/test/java/features/Simulacoes.feature:64)
+]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de valor mínimo" time="0.058218">
-<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:177)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)&#13;&#10;"><![CDATA[Given que configuro uma simulação com valor abaixo do mínimo permitido......passed
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de valor mínimo" time="0.112404">
+<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:178)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)&#13;&#10;"><![CDATA[Given que configuro uma simulação com valor abaixo do mínimo permitido......passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo.failed
 
@@ -152,24 +162,24 @@ java.lang.AssertionError: expected:<400> but was:<201>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:177)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:178)
 	at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de valor máximo" time="0.060946">
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de valor máximo" time="0.345406">
 <system-out><![CDATA[Given que configuro uma simulação com valor acima do máximo permitido.......passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação com problema e a mensagem de erro de valor máximo.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de parcela mínima" time="0.083954">
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de parcela mínima" time="0.121714">
 <system-out><![CDATA[Given que configuro uma simulação com número de parcelas abaixo do mínimo permitido.passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas mínimo.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de parcela máxima" time="0.061739">
-<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:222)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)&#13;&#10;"><![CDATA[Given que configuro uma simulação com número de parcelas acima do máximo permitido.passed
+<testcase classname="Simulacoes" name="Retornar erro quando criar simulação com erro em regra de parcela máxima" time="0.100756">
+<failure message="java.lang.AssertionError: expected:&lt;400&gt; but was:&lt;201&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:223)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)&#13;&#10;"><![CDATA[Given que configuro uma simulação com número de parcelas acima do máximo permitido.passed
 When solicito criar uma simulação...........................................passed
 Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo.failed
 
@@ -179,12 +189,12 @@ java.lang.AssertionError: expected:<400> but was:<201>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:222)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:223)
 	at ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Alterar atributo CPF da simulação com sucesso" time="0.097229">
-<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Alterar atributo CPF da simulação com sucesso" time="0.403039">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 When solicito criar uma simulação...........................................passed
 And informo a alteração que desejo realizar no CPF..........................passed
 And solicito alterar a simulação............................................passed
@@ -196,12 +206,12 @@ java.lang.AssertionError: expected:<200> but was:<500>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)
 	at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Alterar atributo nome da simulação com sucesso" time="0.128751">
-<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Alterar atributo nome da simulação com sucesso" time="0.150626">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 When solicito criar uma simulação...........................................passed
 And informo a alteração que desejo realizar no nome.........................passed
 And solicito alterar a simulação............................................passed
@@ -213,12 +223,12 @@ java.lang.AssertionError: expected:<200> but was:<500>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)
 	at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Alterar atributo email da simulação com sucesso" time="0.188599">
-<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Alterar atributo email da simulação com sucesso" time="0.225577">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 When solicito criar uma simulação...........................................passed
 And informo a alteração que desejo realizar no email........................passed
 And solicito alterar a simulação............................................passed
@@ -230,12 +240,12 @@ java.lang.AssertionError: expected:<200> but was:<500>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)
 	at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Alterar atributo valor da simulação com sucesso" time="0.12513">
-<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Alterar atributo valor da simulação com sucesso" time="0.197759">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 When solicito criar uma simulação...........................................passed
 And informo a alteração que desejo realizar no valor........................passed
 And solicito alterar a simulação............................................passed
@@ -247,12 +257,12 @@ java.lang.AssertionError: expected:<200> but was:<500>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)
 	at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Alterar atributo parcelas da simulação com sucesso" time="0.152373">
-<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Alterar atributo parcelas da simulação com sucesso" time="0.181487">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;500&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)&#13;&#10;&#9;at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 When solicito criar uma simulação...........................................passed
 And informo a alteração que desejo realizar no número de parcelas...........passed
 And solicito alterar a simulação............................................passed
@@ -264,11 +274,11 @@ java.lang.AssertionError: expected:<200> but was:<500>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:258)
+	at steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)
 	at ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Alterar atributo seguro da simulação com sucesso" time="0.117488">
+<testcase classname="Simulacoes" name="Alterar atributo seguro da simulação com sucesso" time="0.250591">
 <system-out><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 When solicito criar uma simulação...........................................passed
 And informo a alteração que desejo realizar no seguro.......................passed
@@ -276,19 +286,19 @@ And solicito alterar a simulação............................................pa
 Then deve retornar status code de simulação alterada........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando solicitar alteração em CPF não existente" time="0.036996">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at steps.stepdefs.solicitoAlterarASimulação(stepdefs.java:252)&#13;&#10;&#9;at ✽.When solicito alterar a simulação(src/test/java/features/Simulacoes.feature:130)&#13;&#10;"><![CDATA[Given que tenho um CPF não cadastrado.......................................passed
+<testcase classname="Simulacoes" name="Retornar erro quando solicitar alteração em CPF não existente" time="0.044719">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at steps.stepdefs.solicitoAlterarASimulação(stepdefs.java:253)&#13;&#10;&#9;at ✽.When solicito alterar a simulação(src/test/java/features/Simulacoes.feature:130)&#13;&#10;"><![CDATA[Given que tenho um CPF não cadastrado.......................................passed
 When solicito alterar a simulação...........................................failed
 Then deve retornar status code de CPF não encontrado........................skipped
 
 StackTrace:
 java.lang.NullPointerException
-	at steps.stepdefs.solicitoAlterarASimulação(stepdefs.java:252)
+	at steps.stepdefs.solicitoAlterarASimulação(stepdefs.java:253)
 	at ✽.When solicito alterar a simulação(src/test/java/features/Simulacoes.feature:130)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Remover simulação com sucesso" time="0.103963">
-<failure message="java.lang.AssertionError: expected:&lt;204&gt; but was:&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso(stepdefs.java:316)&#13;&#10;&#9;at ✽.Then deve retornar status code de deletada com sucesso(src/test/java/features/Simulacoes.feature:138)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
+<testcase classname="Simulacoes" name="Remover simulação com sucesso" time="0.164457">
+<failure message="java.lang.AssertionError: expected:&lt;204&gt; but was:&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at steps.stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso(stepdefs.java:317)&#13;&#10;&#9;at ✽.Then deve retornar status code de deletada com sucesso(src/test/java/features/Simulacoes.feature:138)&#13;&#10;"><![CDATA[Given que configuro uma simulação com sucesso...............................passed
 And solicito criar uma simulação............................................passed
 And extraio o id da simulação...............................................passed
 When solicito deletar a simulação...........................................passed
@@ -300,18 +310,18 @@ java.lang.AssertionError: expected:<204> but was:<200>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso(stepdefs.java:316)
+	at steps.stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso(stepdefs.java:317)
 	at ✽.Then deve retornar status code de deletada com sucesso(src/test/java/features/Simulacoes.feature:138)
 ]]></failure>
 </testcase>
-<testcase classname="Simulacoes" name="Retornar erro quando remover simulação inexistente" time="0.000453">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at steps.stepdefs.solicitoDeletarASimulação(stepdefs.java:311)&#13;&#10;&#9;at ✽.When solicito deletar a simulação(src/test/java/features/Simulacoes.feature:142)&#13;&#10;"><![CDATA[Given que possuo um Id inexistente..........................................passed
+<testcase classname="Simulacoes" name="Retornar erro quando remover simulação inexistente" time="0.0005">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at steps.stepdefs.solicitoDeletarASimulação(stepdefs.java:312)&#13;&#10;&#9;at ✽.When solicito deletar a simulação(src/test/java/features/Simulacoes.feature:142)&#13;&#10;"><![CDATA[Given que possuo um Id inexistente..........................................passed
 When solicito deletar a simulação...........................................failed
 Then deve retornar status code de simulação não encontrada..................skipped
 
 StackTrace:
 java.lang.NullPointerException
-	at steps.stepdefs.solicitoDeletarASimulação(stepdefs.java:311)
+	at steps.stepdefs.solicitoDeletarASimulação(stepdefs.java:312)
 	at ✽.When solicito deletar a simulação(src/test/java/features/Simulacoes.feature:142)
 ]]></failure>
 </testcase>

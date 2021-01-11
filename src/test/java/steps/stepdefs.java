@@ -7,6 +7,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
+import org.junit.Before;
 import pages.GeraCpf;
 import pages.SimulacoesMetodos;
 
@@ -227,12 +228,12 @@ public class stepdefs implements Constants {
     public void queExcluoTodasAsSimulaçõesExistentesCasoExistam() {
         requestSpecification = given();
         ArrayList idsArray = requestSpecification
-            .when().get("http://localhost:8080/api/v1/simulacoes")
-            .then().extract().path("id");
+                .when().get("http://localhost:8080/api/v1/simulacoes")
+                .then().extract().path("id");
         if (idsArray.size()>0) {
             requestSpecification = given();
             for (int i = 0; i < idsArray.size(); i++) {
-            requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idsArray.get(i)); }
+                requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idsArray.get(i)); }
         }
     }
 
@@ -307,8 +308,8 @@ public class stepdefs implements Constants {
 
     @When("^solicito deletar a simulação$")
     public void solicitoDeletarASimulação() {
-         RestAssured.given();
-         response = requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idSimulacao);
+        RestAssured.given();
+        response = requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idSimulacao);
     }
 
     @Then("^deve retornar status code de deletada com sucesso$")
@@ -321,12 +322,9 @@ public class stepdefs implements Constants {
         idSimulacao = 9999999;
     }
 
-
     @Then("^deve retornar status code de simulação não encontrada$")
     public void deveRetornarStatusCodeDeSimulaçãoNãoEncontrada() {
         assertEquals(404, response.statusCode());
         assertThat(response.body().path("mensagem"), Matchers.<Object>is("Simulação não encontrada"));
     }
 }
-
-

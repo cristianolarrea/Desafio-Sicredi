@@ -57,7 +57,7 @@ public class GeraCpf {
             if (cpfsCadastrados[i] == retorno) {
                 retorno = cpf(false);
             } else {
-                break;
+                i++;
             }
         }
         return retorno;
