@@ -24,6 +24,7 @@ public class stepdefs implements Constants {
     String cpfGerado;
     String[] cpfComRestricao = {"97093236014", "60094146012", "84809766080", "62648716050", "26276298085", "01317496094",
     "55856777050", "19626829001", "24094592008", "58063164083"};
+    int idSimulacao;
 
     @Given("^que quero consultar um CPF$")
     public void que_quero_consultar_um_CPF() {
@@ -253,7 +254,8 @@ public class stepdefs implements Constants {
 
     @Then("^deve retornar status code de simulação alterada$")
     public void deveRetornarStatusCodeDeSimulaçãoAlterada() {
-        assertEquals(201, response.statusCode());
+        response.then().log().all();
+        assertEquals(200, response.statusCode());
     }
 
     @And("^informo a alteração que desejo realizar no CPF$")
@@ -284,6 +286,46 @@ public class stepdefs implements Constants {
     @And("^informo a alteração que desejo realizar no seguro$")
     public void informoAAlteraçãoQueDesejoRealizarNoSeguro() {
         requestSpecification = RestAssured.given().body("{\"seguro\": true}").contentType(APP_CONTENT_TYPE);;
+    }
+
+    @Given("^que tenho um CPF não cadastrado$")
+    public void queTenhoUmCPFNãoCadastrado() {
+        GeraCpf geraCpf = new GeraCpf();
+        cpfGerado = geraCpf.cpf(false);
+    }
+
+    @Then("^deve retornar status code de CPF não encontrado$")
+    public void deveRetornarStatusCodeDeCPFNãoEncontrado() {
+        assertEquals(404, response.statusCode());
+        assertThat(response.body().path("mensagem"), Matchers.<Object>is("CPF não encontrado"));
+    }
+
+    @And("^extraio o id da simulação$")
+    public void extraioOIdDaSimulação() {
+        idSimulacao = response.body().path("id");
+    }
+
+    @When("^solicito deletar a simulação$")
+    public void solicitoDeletarASimulação() {
+         RestAssured.given();
+         response = requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idSimulacao);
+    }
+
+    @Then("^deve retornar status code de deletada com sucesso$")
+    public void deveRetornarStatusCodeDeDeletadaComSucesso() {
+        assertEquals(204, response.statusCode());
+    }
+
+    @Given("^que possuo um Id inexistente$")
+    public void quePossuoUmIdInexistente() {
+        idSimulacao = 9999999;
+    }
+
+
+    @Then("^deve retornar status code de simulação não encontrada$")
+    public void deveRetornarStatusCodeDeSimulaçãoNãoEncontrada() {
+        assertEquals(404, response.statusCode());
+        assertThat(response.body().path("mensagem"), Matchers.<Object>is("Simulação não encontrada"));
     }
 }
 

@@ -124,3 +124,20 @@ Feature: Simulacoes
     And informo a alteração que desejo realizar no seguro
     And solicito alterar a simulação
     Then deve retornar status code de simulação alterada
+
+  Scenario: Retornar erro quando solicitar alteração em CPF não existente
+    Given que tenho um CPF não cadastrado
+    When solicito alterar a simulação
+    Then deve retornar status code de CPF não encontrado
+
+  Scenario: Remover simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    And solicito criar uma simulação
+    And extraio o id da simulação
+    When solicito deletar a simulação
+    Then deve retornar status code de deletada com sucesso
+
+  Scenario: Retornar erro quando remover simulação inexistente
+    Given que possuo um Id inexistente
+    When solicito deletar a simulação
+    Then deve retornar status code de simulação não encontrada

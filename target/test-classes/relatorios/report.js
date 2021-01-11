@@ -145,7 +145,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 889819300,
+  "duration": 1426346900,
   "status": "passed"
 });
 formatter.match({
@@ -158,14 +158,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 2442461200,
+  "duration": 2336960400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 485095500,
+  "duration": 705195100,
   "status": "passed"
 });
 formatter.scenario({
@@ -198,7 +198,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 316300,
+  "duration": 361100,
   "status": "passed"
 });
 formatter.match({
@@ -211,14 +211,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 29555300,
+  "duration": 31926800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 17212900,
+  "duration": 15045300,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 609500,
+  "duration": 328200,
   "status": "passed"
 });
 formatter.match({
@@ -264,14 +264,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 56564200,
+  "duration": 41638900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 14822200,
+  "duration": 12467800,
   "status": "passed"
 });
 formatter.scenario({
@@ -304,7 +304,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 255900,
+  "duration": 335700,
   "status": "passed"
 });
 formatter.match({
@@ -317,14 +317,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 34934300,
+  "duration": 49084900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 14127500,
+  "duration": 18527800,
   "status": "passed"
 });
 formatter.scenario({
@@ -357,7 +357,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 290700,
+  "duration": 1168100,
   "status": "passed"
 });
 formatter.match({
@@ -370,14 +370,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 24269600,
+  "duration": 58272400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 10820800,
+  "duration": 37432400,
   "status": "passed"
 });
 formatter.scenario({
@@ -410,7 +410,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 296900,
+  "duration": 307200,
   "status": "passed"
 });
 formatter.match({
@@ -423,14 +423,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 31121200,
+  "duration": 37514300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 29200900,
+  "duration": 13313000,
   "status": "passed"
 });
 formatter.scenario({
@@ -463,7 +463,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 427800,
+  "duration": 631300,
   "status": "passed"
 });
 formatter.match({
@@ -476,14 +476,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 24505600,
+  "duration": 31238500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 10387700,
+  "duration": 13880000,
   "status": "passed"
 });
 formatter.scenario({
@@ -516,7 +516,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 273200,
+  "duration": 730500,
   "status": "passed"
 });
 formatter.match({
@@ -529,14 +529,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 32548500,
+  "duration": 30422600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 9757600,
+  "duration": 12307100,
   "status": "passed"
 });
 formatter.scenario({
@@ -569,7 +569,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 527000,
+  "duration": 321700,
   "status": "passed"
 });
 formatter.match({
@@ -582,14 +582,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 24786700,
+  "duration": 92233200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 9136500,
+  "duration": 12938900,
   "status": "passed"
 });
 formatter.scenario({
@@ -622,7 +622,7 @@ formatter.match({
   "location": "stepdefs.que_quero_consultar_um_CPF()"
 });
 formatter.result({
-  "duration": 299800,
+  "duration": 303500,
   "status": "passed"
 });
 formatter.match({
@@ -635,14 +635,14 @@ formatter.match({
   "location": "stepdefs.consulto_um(String)"
 });
 formatter.result({
-  "duration": 25626700,
+  "duration": 32542600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
 });
 formatter.result({
-  "duration": 11252000,
+  "duration": 16598300,
   "status": "passed"
 });
 formatter.scenario({
@@ -672,21 +672,21 @@ formatter.match({
   "location": "stepdefs.queGeroUmCPF()"
 });
 formatter.result({
-  "duration": 94217500,
+  "duration": 154399100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.consultoOCPFGerado()"
 });
 formatter.result({
-  "duration": 29440300,
+  "duration": 24984600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.receboOStatusCodeDeCPFSemRestrição()"
 });
 formatter.result({
-  "duration": 74900,
+  "duration": 67300,
   "status": "passed"
 });
 formatter.scenario({
@@ -736,49 +736,49 @@ formatter.match({
   "location": "stepdefs.queExcluoTodasAsSimulaçõesExistentesCasoExistam()"
 });
 formatter.result({
-  "duration": 600191300,
+  "duration": 573399800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 65829600,
+  "duration": 40336700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 72783400,
+  "duration": 377783300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 36007400,
+  "duration": 118508300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 70682700,
+  "duration": 83205100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoConsultarTodasAsSimulaçoesCadastradas()"
 });
 formatter.result({
-  "duration": 31985400,
+  "duration": 110099000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarUmaListaComAsSimulaçõesCadastradas()"
 });
 formatter.result({
-  "duration": 14014300,
+  "duration": 38583600,
   "status": "passed"
 });
 formatter.scenario({
@@ -808,21 +808,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMínimos()"
 });
 formatter.result({
-  "duration": 48262400,
+  "duration": 51810300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 39692900,
+  "duration": 24854100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
 });
 formatter.result({
-  "duration": 47700,
+  "duration": 44700,
   "status": "passed"
 });
 formatter.scenario({
@@ -852,21 +852,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMáximos()"
 });
 formatter.result({
-  "duration": 47221500,
+  "duration": 31356500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 88871700,
+  "duration": 26486700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
 });
 formatter.result({
-  "duration": 42300,
+  "duration": 38400,
   "status": "passed"
 });
 formatter.scenario({
@@ -906,35 +906,35 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 48426800,
+  "duration": 42736900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 44501600,
+  "duration": 30464500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.configuroUmaOutraSimulaçãoComOMesmoCPF()"
 });
 formatter.result({
-  "duration": 537500,
+  "duration": 507500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 77161600,
+  "duration": 33529500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente()"
 });
 formatter.result({
-  "duration": 76083600,
+  "duration": 70425200,
   "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:100)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)\r\n",
   "status": "failed"
 });
@@ -965,21 +965,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoCPF()"
 });
 formatter.result({
-  "duration": 80041400,
+  "duration": 57509100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 29382300,
+  "duration": 36395400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF()"
 });
 formatter.result({
-  "duration": 263700,
+  "duration": 378900,
   "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:131)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)\r\n",
   "status": "failed"
 });
@@ -1010,21 +1010,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComCaracteresEspeciaisNoNome()"
 });
 formatter.result({
-  "duration": 52989600,
+  "duration": 84371300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 34392200,
+  "duration": 51023800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome()"
 });
 formatter.result({
-  "duration": 284100,
+  "duration": 281000,
   "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:146)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)\r\n",
   "status": "failed"
 });
@@ -1055,21 +1055,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoEmail()"
 });
 formatter.result({
-  "duration": 48523400,
+  "duration": 86293500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 28261000,
+  "duration": 26023100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail()"
 });
 formatter.result({
-  "duration": 15977400,
+  "duration": 14691700,
   "error_message": "java.lang.AssertionError: \nExpected: is \"não é um endereço de e-mail\"\n     but: was \"E-mail deve ser um e-mail válido\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail(stepdefs.java:162)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de email(src/test/java/features/Simulacoes.feature:64)\r\n",
   "status": "failed"
 });
@@ -1100,21 +1100,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComValorAbaixoDoMínimoPermitido()"
 });
 formatter.result({
-  "duration": 60311900,
+  "duration": 62580200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 30020900,
+  "duration": 40283000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo()"
 });
 formatter.result({
-  "duration": 843400,
+  "duration": 311300,
   "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:176)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)\r\n",
   "status": "failed"
 });
@@ -1145,21 +1145,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComValorAcimaDoMáximoPermitido()"
 });
 formatter.result({
-  "duration": 56004600,
+  "duration": 45802900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 26018800,
+  "duration": 20117600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMáximo()"
 });
 formatter.result({
-  "duration": 15208900,
+  "duration": 13176700,
   "status": "passed"
 });
 formatter.scenario({
@@ -1189,21 +1189,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAbaixoDoMínimoPermitido()"
 });
 formatter.result({
-  "duration": 97351800,
+  "duration": 49757400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 77808400,
+  "duration": 51800100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMínimo()"
 });
 formatter.result({
-  "duration": 13290200,
+  "duration": 25555600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1233,21 +1233,21 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAcimaDoMáximoPermitido()"
 });
 formatter.result({
-  "duration": 47798400,
+  "duration": 105215000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 29149700,
+  "duration": 105528900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo()"
 });
 formatter.result({
-  "duration": 273600,
+  "duration": 279100,
   "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:221)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)\r\n",
   "status": "failed"
 });
@@ -1288,36 +1288,36 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 76223000,
+  "duration": 73911300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 36141000,
+  "duration": 26604000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoCPF()"
 });
 formatter.result({
-  "duration": 1213700,
+  "duration": 1134100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoAlterarASimulação()"
 });
 formatter.result({
-  "duration": 92395300,
+  "duration": 110867900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
 });
 formatter.result({
-  "duration": 389700,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:256)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)\r\n",
+  "duration": 11136600,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:257)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -1357,36 +1357,36 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 142254000,
+  "duration": 345621000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 236785500,
+  "duration": 35564400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoNome()"
 });
 formatter.result({
-  "duration": 496500,
+  "duration": 1033200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoAlterarASimulação()"
 });
 formatter.result({
-  "duration": 65209400,
+  "duration": 98372500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
 });
 formatter.result({
-  "duration": 273200,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:256)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)\r\n",
+  "duration": 5356300,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:257)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -1426,36 +1426,36 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 101402500,
+  "duration": 123691500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 78149600,
+  "duration": 49466400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoEmail()"
 });
 formatter.result({
-  "duration": 1821200,
+  "duration": 884200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoAlterarASimulação()"
 });
 formatter.result({
-  "duration": 95385400,
+  "duration": 103862400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
 });
 formatter.result({
-  "duration": 215000,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:256)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)\r\n",
+  "duration": 2506500,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:257)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -1495,36 +1495,36 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 48440700,
+  "duration": 63555200,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 53361300,
+  "duration": 33470800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoValor()"
 });
 formatter.result({
-  "duration": 453100,
+  "duration": 417700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoAlterarASimulação()"
 });
 formatter.result({
-  "duration": 63752400,
+  "duration": 79943700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
 });
 formatter.result({
-  "duration": 244100,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:256)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)\r\n",
+  "duration": 3965100,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:257)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -1564,36 +1564,36 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 60551500,
+  "duration": 57324500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 47558600,
+  "duration": 38792300,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoNúmeroDeParcelas()"
 });
 formatter.result({
-  "duration": 602900,
+  "duration": 371000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoAlterarASimulação()"
 });
 formatter.result({
-  "duration": 50195800,
+  "duration": 104450400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
 });
 formatter.result({
-  "duration": 344200,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:256)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)\r\n",
+  "duration": 3161200,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:257)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -1633,36 +1633,79 @@ formatter.match({
   "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
 });
 formatter.result({
-  "duration": 50478500,
+  "duration": 36009000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoCriarUmaSimulação()"
 });
 formatter.result({
-  "duration": 31164800,
+  "duration": 38725500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoSeguro()"
 });
 formatter.result({
-  "duration": 507500,
+  "duration": 520100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.solicitoAlterarASimulação()"
 });
 formatter.result({
-  "duration": 127931400,
+  "duration": 96576800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
 });
 formatter.result({
-  "duration": 256300,
-  "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:256)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:126)\r\n",
+  "duration": 4380500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 128,
+  "name": "Retornar erro quando solicitar alteração em CPF não existente",
+  "description": "",
+  "id": "simulacoes;retornar-erro-quando-solicitar-alteração-em-cpf-não-existente",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 129,
+  "name": "que tenho um CPF não cadastrado",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 130,
+  "name": "solicito alterar a simulação",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 131,
+  "name": "deve retornar status code de erro na alteração",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefs.queTenhoUmCPFNãoCadastrado()"
+});
+formatter.result({
+  "duration": 87766700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.solicitoAlterarASimulação()"
+});
+formatter.result({
+  "duration": 295000,
+  "error_message": "java.lang.NullPointerException\r\n\tat steps.stepdefs.solicitoAlterarASimulação(stepdefs.java:251)\r\n\tat ✽.When solicito alterar a simulação(src/test/java/features/Simulacoes.feature:130)\r\n",
   "status": "failed"
+});
+formatter.match({
+  "location": "stepdefs.deveRetornarStatusCodeDeErroNaAlteração()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
