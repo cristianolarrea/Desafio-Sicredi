@@ -83,3 +83,44 @@ Feature: Simulacoes
     When solicito criar uma simulação
     Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo
 
+  Scenario: Alterar atributo CPF da simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    When solicito criar uma simulação
+    And informo a alteração que desejo realizar no CPF
+    And solicito alterar a simulação
+    Then deve retornar status code de simulação alterada
+
+  Scenario: Alterar atributo nome da simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    When solicito criar uma simulação
+    And informo a alteração que desejo realizar no nome
+    And solicito alterar a simulação
+    Then deve retornar status code de simulação alterada
+
+  Scenario: Alterar atributo email da simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    When solicito criar uma simulação
+    And informo a alteração que desejo realizar no email
+    And solicito alterar a simulação
+    Then deve retornar status code de simulação alterada
+
+  Scenario: Alterar atributo valor da simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    When solicito criar uma simulação
+    And informo a alteração que desejo realizar no valor
+    And solicito alterar a simulação
+    Then deve retornar status code de simulação alterada
+
+  Scenario: Alterar atributo parcelas da simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    When solicito criar uma simulação
+    And informo a alteração que desejo realizar no número de parcelas
+    And solicito alterar a simulação
+    Then deve retornar status code de simulação alterada
+
+  Scenario: Alterar atributo seguro da simulação com sucesso
+    Given que configuro uma simulação com sucesso
+    When solicito criar uma simulação
+    And informo a alteração que desejo realizar no seguro
+    And solicito alterar a simulação
+    Then deve retornar status code de simulação alterada

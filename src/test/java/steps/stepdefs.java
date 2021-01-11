@@ -2,6 +2,7 @@ package steps;
 
 import base.Constants;
 import cucumber.api.java.en.*;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
@@ -243,6 +244,46 @@ public class stepdefs implements Constants {
     public void deveRetornarUmaListaComAsSimulaçõesCadastradas() {
         ArrayList idsArray = response.then().extract().path("id");
         Assert.assertEquals(idsArray.size(), 2);
+    }
+
+    @And("^solicito alterar a simulação$")
+    public void solicitoAlterarASimulação() {
+        response = requestSpecification.put("http://localhost:8080/api/v1/simulacoes/" + cpfGerado);
+    }
+
+    @Then("^deve retornar status code de simulação alterada$")
+    public void deveRetornarStatusCodeDeSimulaçãoAlterada() {
+        assertEquals(201, response.statusCode());
+    }
+
+    @And("^informo a alteração que desejo realizar no CPF$")
+    public void informoAAlteraçãoQueDesejoRealizarNoCPF() {
+        requestSpecification = RestAssured.given().body("{\"cpf\": \"978.654.312-00\"}").contentType(APP_CONTENT_TYPE);
+    }
+
+    @And("^informo a alteração que desejo realizar no nome$")
+    public void informoAAlteraçãoQueDesejoRealizarNoNome() {
+        requestSpecification = RestAssured.given().body("{\"nome\": \"Fulano de Tal\"}").contentType(APP_CONTENT_TYPE);;
+    }
+
+    @And("^informo a alteração que desejo realizar no email$")
+    public void informoAAlteraçãoQueDesejoRealizarNoEmail() {
+        requestSpecification = RestAssured.given().body("{\"email\": \"fulanodetal@teste.com\"}").contentType(APP_CONTENT_TYPE);;
+    }
+
+    @And("^informo a alteração que desejo realizar no valor$")
+    public void informoAAlteraçãoQueDesejoRealizarNoValor() {
+        requestSpecification = RestAssured.given().body("{\"valor\": 30600}").contentType(APP_CONTENT_TYPE);;
+    }
+
+    @And("^informo a alteração que desejo realizar no número de parcelas$")
+    public void informoAAlteraçãoQueDesejoRealizarNoNúmeroDeParcelas() {
+        requestSpecification = RestAssured.given().body("{\"parcelas\": 27}").contentType(APP_CONTENT_TYPE);;
+    }
+
+    @And("^informo a alteração que desejo realizar no seguro$")
+    public void informoAAlteraçãoQueDesejoRealizarNoSeguro() {
+        requestSpecification = RestAssured.given().body("{\"seguro\": true}").contentType(APP_CONTENT_TYPE);;
     }
 }
 
