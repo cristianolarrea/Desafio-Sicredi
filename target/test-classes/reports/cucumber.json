@@ -1,0 +1,1782 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1292796500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2716473600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"97093236014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "97093236014",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1140190900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1162000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37110300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"60094146012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60094146012",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16570800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1154800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39818800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"84809766080\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "84809766080",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15908200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 271700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38453300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"62648716050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "62648716050",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11106100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 314700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42363000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"26276298085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26276298085",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10934500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 303200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38829800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"01317496094\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01317496094",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15781200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 333300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79436300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"55856777050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55856777050",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102421600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 322900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69716000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"19626829001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19626829001",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18007100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 321000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36024200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"24094592008\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24094592008",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15939400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Consultar CPF com restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-com-restrição;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 346200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que quero consultar um CPF",
+            "match": {
+              "location": "stepdefs.que_quero_consultar_um_CPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41214400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "consulto um \"58063164083\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "58063164083",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.consulto_um(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21446000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "recebo o status code de cpf com restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCpfComRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Consultar CPF sem restrição",
+        "description": "",
+        "id": "simulacoes;consultar-cpf-sem-restrição",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 339231100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que gero um CPF",
+            "match": {
+              "location": "stepdefs.queGeroUmCPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113388300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "consulto o CPF gerado",
+            "match": {
+              "location": "stepdefs.consultoOCPFGerado()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "recebo o status code de CPF sem restrição",
+            "match": {
+              "location": "stepdefs.receboOStatusCodeDeCPFSemRestrição()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Consultar todas as simulações cadastradas",
+        "description": "",
+        "id": "simulacoes;consultar-todas-as-simulações-cadastradas",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 751961100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "que excluo todas as simulações existentes caso existam",
+            "match": {
+              "location": "stepdefs.queExcluoTodasAsSimulaçõesExistentesCasoExistam()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117382200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 641618400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55297400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46635100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39132700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "solicito consultar todas as simulaçoes cadastradas",
+            "match": {
+              "location": "stepdefs.solicitoConsultarTodasAsSimulaçoesCadastradas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13620000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "deve retornar uma lista com as simulações cadastradas",
+            "match": {
+              "location": "stepdefs.deveRetornarUmaListaComAsSimulaçõesCadastradas()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Criar simulação com sucesso com extremos mínimos",
+        "description": "",
+        "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-mínimos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58040700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "que configuro uma simulação com sucesso com valores mínimos",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMínimos()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31974300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "deve retornar status code de simulação adicionada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Criar simulação com sucesso com extremos máximos",
+        "description": "",
+        "id": "simulacoes;criar-simulação-com-sucesso-com-extremos-máximos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53514600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "que configuro uma simulação com sucesso com valores máximos",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMáximos()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30128200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "deve retornar status code de simulação adicionada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Retornar erro quando criar simulação com CPF já existente",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-cpf-já-existente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50631300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37526100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "configuro uma outra simulação com o mesmo CPF",
+            "match": {
+              "location": "stepdefs.configuroUmaOutraSimulaçãoComOMesmoCPF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85311200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51911000,
+              "error_message": "java.lang.AssertionError: expected:\u003c409\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente(stepdefs.java:102)\r\n\tat ✽.Then deve retornar status code de simulação com CPF já existente(src/test/java/features/Simulacoes.feature:49)\r\n",
+              "status": "failed"
+            },
+            "line": 49,
+            "name": "deve retornar status code de simulação com CPF já existente",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "Retornar erro quando criar simulação com erro em CPF",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-cpf",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58116000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "que configuro uma simulação com erro no formato do CPF",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoCPF()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40179600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218900,
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF(stepdefs.java:133)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de CPF(src/test/java/features/Simulacoes.feature:54)\r\n",
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de CPF",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Retornar erro quando criar simulação com erro em nome",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-nome",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76862000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "que configuro uma simulação com caracteres especiais no nome",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComCaracteresEspeciaisNoNome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168027500,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245500,
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome(stepdefs.java:148)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de nome(src/test/java/features/Simulacoes.feature:59)\r\n",
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de nome",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "Retornar erro quando criar simulação com erro em email",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71157600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "que configuro uma simulação com erro no formato do email",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoEmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85564300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21228300,
+              "error_message": "java.lang.AssertionError: \nExpected: is \"não é um endereço de e-mail\"\n     but: was \"E-mail deve ser um e-mail válido\"\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat org.junit.Assert.assertThat(Assert.java:923)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail(stepdefs.java:164)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de email(src/test/java/features/Simulacoes.feature:64)\r\n",
+              "status": "failed"
+            },
+            "line": 64,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de email",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "Retornar erro quando criar simulação com erro em regra de valor mínimo",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valor-mínimo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53085500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "que configuro uma simulação com valor abaixo do mínimo permitido",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComValorAbaixoDoMínimoPermitido()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27055600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235500,
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo(stepdefs.java:178)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo(src/test/java/features/Simulacoes.feature:69)\r\n",
+              "status": "failed"
+            },
+            "line": 69,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 71,
+        "name": "Retornar erro quando criar simulação com erro em regra de valor máximo",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-valor-máximo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61660600,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "que configuro uma simulação com valor acima do máximo permitido",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComValorAcimaDoMáximoPermitido()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100257200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15980900,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de valor máximo",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMáximo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 76,
+        "name": "Retornar erro quando criar simulação com erro em regra de parcela mínima",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-parcela-mínima",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76948700,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "que configuro uma simulação com número de parcelas abaixo do mínimo permitido",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAbaixoDoMínimoPermitido()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22672000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31633600,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas mínimo",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMínimo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 81,
+        "name": "Retornar erro quando criar simulação com erro em regra de parcela máxima",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-criar-simulação-com-erro-em-regra-de-parcela-máxima",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72619900,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "que configuro uma simulação com número de parcelas acima do máximo permitido",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAcimaDoMáximoPermitido()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30896300,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272100,
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c201\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo(stepdefs.java:223)\r\n\tat ✽.Then deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo(src/test/java/features/Simulacoes.feature:84)\r\n",
+              "status": "failed"
+            },
+            "line": 84,
+            "name": "deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 86,
+        "name": "Alterar atributo CPF da simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;alterar-atributo-cpf-da-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54998000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34273500,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1013000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "informo a alteração que desejo realizar no CPF",
+            "match": {
+              "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoCPF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179968700,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2991900,
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:91)\r\n",
+              "status": "failed"
+            },
+            "line": 91,
+            "name": "deve retornar status code de simulação alterada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 93,
+        "name": "Alterar atributo nome da simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;alterar-atributo-nome-da-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102153800,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38775200,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 489000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "informo a alteração que desejo realizar no nome",
+            "match": {
+              "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoNome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95319800,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3063900,
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:98)\r\n",
+              "status": "failed"
+            },
+            "line": 98,
+            "name": "deve retornar status code de simulação alterada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 100,
+        "name": "Alterar atributo email da simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;alterar-atributo-email-da-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96679600,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47331600,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 437400,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "informo a alteração que desejo realizar no email",
+            "match": {
+              "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147361800,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8136600,
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:105)\r\n",
+              "status": "failed"
+            },
+            "line": 105,
+            "name": "deve retornar status code de simulação alterada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 107,
+        "name": "Alterar atributo valor da simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;alterar-atributo-valor-da-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78624500,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35812200,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 528300,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "informo a alteração que desejo realizar no valor",
+            "match": {
+              "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoValor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80758400,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1805400,
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:112)\r\n",
+              "status": "failed"
+            },
+            "line": 112,
+            "name": "deve retornar status code de simulação alterada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 114,
+        "name": "Alterar atributo parcelas da simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;alterar-atributo-parcelas-da-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68814000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30172400,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2422600,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "informo a alteração que desejo realizar no número de parcelas",
+            "match": {
+              "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoNúmeroDeParcelas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85779900,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1974700,
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c500\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada(stepdefs.java:259)\r\n\tat ✽.Then deve retornar status code de simulação alterada(src/test/java/features/Simulacoes.feature:119)\r\n",
+              "status": "failed"
+            },
+            "line": 119,
+            "name": "deve retornar status code de simulação alterada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 121,
+        "name": "Alterar atributo seguro da simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;alterar-atributo-seguro-da-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61533800,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28541700,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490700,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "informo a alteração que desejo realizar no seguro",
+            "match": {
+              "location": "stepdefs.informoAAlteraçãoQueDesejoRealizarNoSeguro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94415700,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4012100,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "deve retornar status code de simulação alterada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 128,
+        "name": "Retornar erro quando solicitar alteração em CPF não existente",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-solicitar-alteração-em-cpf-não-existente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58477200,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "que tenho um CPF não cadastrado",
+            "match": {
+              "location": "stepdefs.queTenhoUmCPFNãoCadastrado()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22265300,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "solicito alterar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoAlterarASimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282700,
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeCPFNãoEncontrado(stepdefs.java:301)\r\n\tat ✽.Then deve retornar status code de CPF não encontrado(src/test/java/features/Simulacoes.feature:131)\r\n",
+              "status": "failed"
+            },
+            "line": 131,
+            "name": "deve retornar status code de CPF não encontrado",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeCPFNãoEncontrado()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 133,
+        "name": "Remover simulação com sucesso",
+        "description": "",
+        "id": "simulacoes;remover-simulação-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91584000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "que configuro uma simulação com sucesso",
+            "match": {
+              "location": "stepdefs.queConfiguroUmaSimulaçãoComSucesso()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31060600,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "solicito criar uma simulação",
+            "match": {
+              "location": "stepdefs.solicitoCriarUmaSimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17693700,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "extraio o id da simulação",
+            "match": {
+              "location": "stepdefs.extraioOIdDaSimulação()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77284100,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "solicito deletar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoDeletarASimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226800,
+              "error_message": "java.lang.AssertionError: expected:\u003c204\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso(stepdefs.java:317)\r\n\tat ✽.Then deve retornar status code de deletada com sucesso(src/test/java/features/Simulacoes.feature:138)\r\n",
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "deve retornar status code de deletada com sucesso",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 140,
+        "name": "Retornar erro quando remover simulação inexistente",
+        "description": "",
+        "id": "simulacoes;retornar-erro-quando-remover-simulação-inexistente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182900,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "que possuo um Id inexistente",
+            "match": {
+              "location": "stepdefs.quePossuoUmIdInexistente()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31411100,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "solicito deletar a simulação",
+            "match": {
+              "location": "stepdefs.solicitoDeletarASimulação()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 782800,
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat steps.stepdefs.deveRetornarStatusCodeDeSimulaçãoNãoEncontrada(stepdefs.java:328)\r\n\tat ✽.Then deve retornar status code de simulação não encontrada(src/test/java/features/Simulacoes.feature:143)\r\n",
+              "status": "failed"
+            },
+            "line": 143,
+            "name": "deve retornar status code de simulação não encontrada",
+            "match": {
+              "location": "stepdefs.deveRetornarStatusCodeDeSimulaçãoNãoEncontrada()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Simulacoes",
+    "description": "",
+    "id": "simulacoes",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Simulacoes.feature"
+  }
+]

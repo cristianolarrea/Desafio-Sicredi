@@ -293,6 +293,7 @@ public class stepdefs implements Constants {
     public void queTenhoUmCPFNãoCadastrado() {
         GeraCpf geraCpf = new GeraCpf();
         cpfGerado = geraCpf.cpf(false);
+        requestSpecification = RestAssured.given();
     }
 
     @Then("^deve retornar status code de CPF não encontrado$")
@@ -308,7 +309,6 @@ public class stepdefs implements Constants {
 
     @When("^solicito deletar a simulação$")
     public void solicitoDeletarASimulação() {
-        RestAssured.given();
         response = requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idSimulacao);
     }
 
@@ -319,7 +319,8 @@ public class stepdefs implements Constants {
 
     @Given("^que possuo um Id inexistente$")
     public void quePossuoUmIdInexistente() {
-        idSimulacao = 9999999;
+        requestSpecification = RestAssured.given();
+        idSimulacao = 999999;
     }
 
     @Then("^deve retornar status code de simulação não encontrada$")
