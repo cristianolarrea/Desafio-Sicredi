@@ -16,7 +16,6 @@ Para configurar o ambiente: <br>
 • Importe o projeto para sua IDE
 
 Para executar o projeto, utilizar a classe _Runner_.
-E, para gerar o relatório, execute o comando _mvn cluecumber-report:reporting_ no terminal da IDE. O relatório será gerado na pasta _target/generated-report/_, dentro do projeto. Arquivo _index.html_.
-
+E, para gerar o relatório, execute o comando _mvn cluecumber-report:reporting_ no terminal da IDE após a execução dos testes. O relatório será gerado na pasta _target/generated-report/_, dentro do projeto. Arquivo _index.html_.
 
 
