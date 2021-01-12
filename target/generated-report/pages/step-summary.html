@@ -1,0 +1,1446 @@
+
+    <!--
+    Copyright 2019 trivago N.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <base href="..">
+    <head title="Cluecumber Report - All Steps">
+        <title>Cluecumber Report - All Steps</title>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src *  data: blob: 'unsafe-inline' 'unsafe-eval';
+script-src * data: blob: 'unsafe-inline' 'unsafe-eval';
+connect-src * data: blob: 'unsafe-inline';
+img-src * data: blob: 'unsafe-inline';
+frame-src * data: blob: ;
+style-src * data: blob: 'unsafe-inline';
+font-src * data: blob: 'unsafe-inline';"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Cluecumber Report">
+<meta name="author" content="Cluecumber Report Plugin version 2.5.0">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/datatables.min.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+<link rel="stylesheet" href="css/cluecumber.css" type="text/css">
+<link rel="stylesheet" href="css/cluecumber-custom.css"/>
+<link rel="stylesheet" href="css/cluecumber-additional.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datatables.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+            // Data tables
+            $('.renderAsDataTable').on('draw.dt', function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            }).DataTable({
+                "oLanguage": {
+                    "sSearch": "Search:"
+                },
+                "pageLength": 25,
+                "responsive": true
+            });
+
+            $('.collapse').on('shown.bs.collapse', function (e) {
+                $(e.target).find("iframe").each(function (index, iframe) {
+                    resizeIframe(iframe);
+                })
+            });
+
+            // Lightbox
+            $("a.grouped_elements").fancybox();
+
+            // Tool tips
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Chart
+            var canvas = document.getElementById('chart-area');
+            var ctx = canvas.getContext("2d");
+            var chart = new Chart(ctx, {
+  "data": {
+    "labels": [
+      "deve retornar status code de simulação com problema e a mensagem de erro de CPF",
+      "solicito alterar a simulação",
+      "que possuo um Id inexistente",
+      "deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo",
+      "informo a alteração que desejo realizar no número de parcelas",
+      "recebo o status code de CPF sem restrição",
+      "deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas mínimo",
+      "informo a alteração que desejo realizar no nome",
+      "que configuro uma simulação com sucesso com valores máximos",
+      "que configuro uma simulação com sucesso",
+      "deve retornar status code de simulação com problema e a mensagem de erro de nome",
+      "deve retornar status code de simulação com problema e a mensagem de erro de email",
+      "informo a alteração que desejo realizar no valor",
+      "deve retornar uma lista com as simulações cadastradas",
+      "que configuro uma simulação com valor acima do máximo permitido",
+      "deve retornar status code de simulação com CPF já existente",
+      "que excluo todas as simulações existentes caso existam",
+      "que configuro uma simulação com erro no formato do email",
+      "que configuro uma simulação com número de parcelas acima do máximo permitido",
+      "que gero um CPF",
+      "solicito consultar todas as simulaçoes cadastradas",
+      "informo a alteração que desejo realizar no email",
+      "informo a alteração que desejo realizar no seguro",
+      "solicito deletar a simulação",
+      "consulto o CPF gerado",
+      "que configuro uma simulação com erro no formato do CPF",
+      "que configuro uma simulação com valor abaixo do mínimo permitido",
+      "que configuro uma simulação com número de parcelas abaixo do mínimo permitido",
+      "deve retornar status code de CPF não encontrado",
+      "solicito criar uma simulação",
+      "deve retornar status code de simulação com problema e a mensagem de erro de valor máximo",
+      "que configuro uma simulação com caracteres especiais no nome",
+      "deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo",
+      "que quero consultar um CPF",
+      "deve retornar status code de simulação não encontrada",
+      "deve retornar status code de simulação adicionada",
+      "recebo o status code de cpf com restrição",
+      "que tenho um CPF não cadastrado",
+      "extraio o id da simulação",
+      "informo a alteração que desejo realizar no CPF",
+      "consulto um \"{}\"",
+      "que configuro uma simulação com sucesso com valores mínimos",
+      "configuro uma outra simulação com o mesmo CPF",
+      "deve retornar status code de simulação alterada",
+      "deve retornar status code de deletada com sucesso"
+    ],
+    "datasets": [
+      {
+        "data": [
+          0,
+          7,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          10,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          20,
+          1,
+          1,
+          0,
+          10,
+          0,
+          2,
+          10,
+          1,
+          1,
+          1,
+          10,
+          1,
+          1,
+          6,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)"
+        ],
+        "label": "passed"
+      },
+      {
+        "data": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)"
+        ],
+        "label": "failed"
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ],
+        "label": "skipped"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "xAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 0,
+            "display": false
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "45 Steps"
+          },
+          "stepSize": 0.0
+        }
+      ],
+      "yAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 20,
+            "display": true
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Number of Usages"
+          },
+          "stepSize": 0.0
+        }
+      ]
+    },
+    "events": [
+      "click",
+      "mousemove"
+    ]
+  },
+  "type": "bar"
+});
+
+            var original;
+            if (chart.config.type === "pie") {
+                original = Chart.defaults.pie.legend.onClick;
+            } else {
+                original = Chart.defaults.global.legend.onClick;
+            }
+
+            chart.options.onClick = function (evt, elements) {
+                if (chart.config.type !== "pie") return;
+                chartArea = elements[0];
+                if (chartArea === undefined) return;
+                chartArea.hidden = !chartArea.hidden;
+                chart.update();
+                toggleVisibilityByStatus(chartArea._model.label, !chartArea.hidden)
+            };
+
+            chart.options.legend.onClick = function (evt, label) {
+                original.call(this, evt, label);
+                toggleVisibilityByStatus(label.text, label.hidden);
+            };
+
+            function toggleVisibilityByStatus(statusText, show) {
+                var card = $("#card_" + statusText);
+                if (card !== undefined) {
+                    if (show) {
+                        card.show();
+                    } else {
+                        card.hide();
+                    }
+                }
+
+                var row = $(".table-row-" + statusText);
+                if (row !== undefined) {
+                    if (show) {
+                        row.show();
+                    } else {
+                        row.hide();
+                    }
+                }
+            }
+
+
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='before-after-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='step-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='doc-strings-button']").click();
+            }
+        }
+    );
+
+    function resizeIframe(iframe) {
+        iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 25) + 'px';
+    }
+</script>    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-summary.html">All Scenarios</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-sequence.html">Scenario Sequence</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/tag-summary.html">All Tags</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link text-white" href="pages/step-summary.html">All Steps</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/feature-summary.html">All Features</a>
+                    </li>
+            </ul>
+            <span class="text-light">2021-01-12 14:00:08</span>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="cluecumber-template">
+            <div class="pb-2 mt-4 mb-2 border-bottom">
+                    <h3>All Steps</h3>
+            </div>
+
+    <div class="row" id="step-summary">
+    <div class="col-sm-9  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Step Summary Result Chart</div>
+            <div class="card-body">
+    <div id="canvas-holder" class="w-100 text-center" style="min-height: 15rem;" data-cluecumber-item="chart">
+        <canvas id="chart-area" class="w-100"></canvas>
+    </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Steps Summary</div>
+            <div class="card-body">
+            <ul class="list-group list-group-flush" data-cluecumber-item="step-summary">
+                <li class="list-group-item">
+                    45         Steps
+ in
+                    <br>
+                    31         Scenarios
+
+                </li>
+                <li class="list-group-item">
+                    23 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+
+                    <br>
+                    8 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+
+                    <br>
+                    0 skipped    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row" id="available-steps">
+    <div class="col-sm-12  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Available Steps</div>
+            <div class="card-body">
+            <table id="step_summary" class="table table-hover renderAsDataTable"
+                   data-cluecumber-item="step-summary-table">
+                <thead>
+                <tr>
+                    <th>Step</th>
+                    <th>Total</th>
+                    <th>    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+</th>
+                    <th>    <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+</th>
+                    <th>    <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+</th>
+                    <th>Min Time</th>
+                    <th>Max Time</th>
+                    <th>� Time</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeCPF()">
+                                <a href="pages/step-scenarios/step_1008495516.html">deve retornar status code de simulação com problema e a mensagem de erro de CPF</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.solicitoAlterarASimulação()">
+                                <a href="pages/step-scenarios/step_1871740176.html">solicito alterar a simulação</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>7</strong></td>
+                        <td class="text-right">7</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_29.html">0m 00s 013ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_27.html">0m 00s 043ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 034ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.quePossuoUmIdInexistente()">
+                                <a href="pages/step-scenarios/step_20107763.html">que possuo um Id inexistente</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_31.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_31.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMínimo()">
+                                <a href="pages/step-scenarios/step_01966113139.html">deve retornar status code de simulação com problema e a mensagem de erro de valor mínimo</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_19.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_19.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.informoAAlteraçãoQueDesejoRealizarNoNúmeroDeParcelas()">
+                                <a href="pages/step-scenarios/step_1049535501.html">informo a alteração que desejo realizar no número de parcelas</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_27.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_27.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.receboOStatusCodeDeCPFSemRestrição()">
+                                <a href="pages/step-scenarios/step_702781093.html">recebo o status code de CPF sem restrição</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMínimo()">
+                                <a href="pages/step-scenarios/step_1841045051.html">deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas mínimo</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_21.html">0m 00s 009ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_21.html">0m 00s 009ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 009ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.informoAAlteraçãoQueDesejoRealizarNoNome()">
+                                <a href="pages/step-scenarios/step_1527102978.html">informo a alteração que desejo realizar no nome</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_24.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_24.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMáximos()">
+                                <a href="pages/step-scenarios/step_711649954.html">que configuro uma simulação com sucesso com valores máximos</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_14.html">0m 00s 053ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_14.html">0m 00s 053ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 053ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComSucesso()">
+                                <a href="pages/step-scenarios/step_0533377988.html">que configuro uma simulação com sucesso</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>10</strong></td>
+                        <td class="text-right">10</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_28.html">0m 00s 030ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 080ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 046ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNome()">
+                                <a href="pages/step-scenarios/step_1543359286.html">deve retornar status code de simulação com problema e a mensagem de erro de nome</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_17.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_17.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeEmail()">
+                                <a href="pages/step-scenarios/step_1133742111.html">deve retornar status code de simulação com problema e a mensagem de erro de email</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_18.html">0m 00s 010ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_18.html">0m 00s 010ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 010ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.informoAAlteraçãoQueDesejoRealizarNoValor()">
+                                <a href="pages/step-scenarios/step_01795716613.html">informo a alteração que desejo realizar no valor</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_26.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_26.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarUmaListaComAsSimulaçõesCadastradas()">
+                                <a href="pages/step-scenarios/step_1381465754.html">deve retornar uma lista com as simulações cadastradas</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 016ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 016ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 016ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComValorAcimaDoMáximoPermitido()">
+                                <a href="pages/step-scenarios/step_1428098316.html">que configuro uma simulação com valor acima do máximo permitido</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_20.html">0m 00s 110ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_20.html">0m 00s 110ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 110ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComCPFJáExistente()">
+                                <a href="pages/step-scenarios/step_0754040102.html">deve retornar status code de simulação com CPF já existente</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queExcluoTodasAsSimulaçõesExistentesCasoExistam()">
+                                <a href="pages/step-scenarios/step_733178086.html">que excluo todas as simulações existentes caso existam</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 01s 202ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 01s 202ms</a>
+                        </td>
+                        <td class="text-right small">0m 01s 202ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoEmail()">
+                                <a href="pages/step-scenarios/step_937851507.html">que configuro uma simulação com erro no formato do email</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_18.html">0m 00s 039ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_18.html">0m 00s 039ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 039ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAcimaDoMáximoPermitido()">
+                                <a href="pages/step-scenarios/step_01154718278.html">que configuro uma simulação com número de parcelas acima do máximo permitido</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_22.html">0m 00s 040ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_22.html">0m 00s 040ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 040ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queGeroUmCPF()">
+                                <a href="pages/step-scenarios/step_0479301191.html">que gero um CPF</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 00s 144ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 00s 144ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 144ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.solicitoConsultarTodasAsSimulaçoesCadastradas()">
+                                <a href="pages/step-scenarios/step_1012182019.html">solicito consultar todas as simulaçoes cadastradas</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 068ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 068ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 068ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.informoAAlteraçãoQueDesejoRealizarNoEmail()">
+                                <a href="pages/step-scenarios/step_629796563.html">informo a alteração que desejo realizar no email</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_25.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_25.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.informoAAlteraçãoQueDesejoRealizarNoSeguro()">
+                                <a href="pages/step-scenarios/step_01648593754.html">informo a alteração que desejo realizar no seguro</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_28.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_28.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.solicitoDeletarASimulação()">
+                                <a href="pages/step-scenarios/step_1945054964.html">solicito deletar a simulação</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right">2</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_31.html">0m 00s 028ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_30.html">0m 00s 034ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 031ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.consultoOCPFGerado()">
+                                <a href="pages/step-scenarios/step_1361367545.html">consulto o CPF gerado</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 00s 071ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_11.html">0m 00s 071ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 071ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComErroNoFormatoDoCPF()">
+                                <a href="pages/step-scenarios/step_01217404176.html">que configuro uma simulação com erro no formato do CPF</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 00s 038ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_16.html">0m 00s 038ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 038ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComValorAbaixoDoMínimoPermitido()">
+                                <a href="pages/step-scenarios/step_725234405.html">que configuro uma simulação com valor abaixo do mínimo permitido</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_19.html">0m 00s 036ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_19.html">0m 00s 036ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 036ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComNúmeroDeParcelasAbaixoDoMínimoPermitido()">
+                                <a href="pages/step-scenarios/step_02032668681.html">que configuro uma simulação com número de parcelas abaixo do mínimo permitido</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_21.html">0m 00s 037ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_21.html">0m 00s 037ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 037ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeCPFNãoEncontrado()">
+                                <a href="pages/step-scenarios/step_1039140624.html">deve retornar status code de CPF não encontrado</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_29.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_29.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.solicitoCriarUmaSimulação()">
+                                <a href="pages/step-scenarios/step_0175280980.html">solicito criar uma simulação</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>20</strong></td>
+                        <td class="text-right">20</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_21.html">0m 00s 017ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_12.html">0m 00s 095ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 033ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeValorMáximo()">
+                                <a href="pages/step-scenarios/step_555036087.html">deve retornar status code de simulação com problema e a mensagem de erro de valor máximo</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_20.html">0m 00s 076ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_20.html">0m 00s 076ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 076ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComCaracteresEspeciaisNoNome()">
+                                <a href="pages/step-scenarios/step_728800020.html">que configuro uma simulação com caracteres especiais no nome</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_17.html">0m 00s 051ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_17.html">0m 00s 051ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 051ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoComProblemaEAMensagemDeErroDeNúmeroDeParcelasMáximo()">
+                                <a href="pages/step-scenarios/step_67226981.html">deve retornar status code de simulação com problema e a mensagem de erro de número de parcelas máximo</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_22.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_22.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.que_quero_consultar_um_CPF()">
+                                <a href="pages/step-scenarios/step_505462087.html">que quero consultar um CPF</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>10</strong></td>
+                        <td class="text-right">10</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_8.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 01s 173ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 117ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoNãoEncontrada()">
+                                <a href="pages/step-scenarios/step_01523993919.html">deve retornar status code de simulação não encontrada</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_31.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_31.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoAdicionada()">
+                                <a href="pages/step-scenarios/step_449298988.html">deve retornar status code de simulação adicionada</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right">2</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_14.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_13.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.receboOStatusCodeDeCpfComRestrição()">
+                                <a href="pages/step-scenarios/step_986702655.html">recebo o status code de cpf com restrição</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>10</strong></td>
+                        <td class="text-right">10</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_3.html">0m 00s 011ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 00s 483ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 064ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queTenhoUmCPFNãoCadastrado()">
+                                <a href="pages/step-scenarios/step_779264577.html">que tenho um CPF não cadastrado</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_29.html">0m 00s 036ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_29.html">0m 00s 036ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 036ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.extraioOIdDaSimulação()">
+                                <a href="pages/step-scenarios/step_0750716941.html">extraio o id da simulação</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_30.html">0m 00s 008ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_30.html">0m 00s 008ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 008ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.informoAAlteraçãoQueDesejoRealizarNoCPF()">
+                                <a href="pages/step-scenarios/step_2116349776.html">informo a alteração que desejo realizar no CPF</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_23.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_23.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.consulto_um(String)">
+                                <a href="pages/step-scenarios/step_158959951.html">consulto um "{}"</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>10</strong></td>
+                        <td class="text-right">10</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_6.html">0m 00s 031ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_1.html">0m 02s 991ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 336ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.queConfiguroUmaSimulaçãoComSucessoComValoresMínimos()">
+                                <a href="pages/step-scenarios/step_0134564724.html">que configuro uma simulação com sucesso com valores mínimos</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_13.html">0m 00s 071ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_13.html">0m 00s 071ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 071ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.configuroUmaOutraSimulaçãoComOMesmoCPF()">
+                                <a href="pages/step-scenarios/step_323738994.html">configuro uma outra simulação com o mesmo CPF</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_15.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeSimulaçãoAlterada()">
+                                <a href="pages/step-scenarios/step_0660984415.html">deve retornar status code de simulação alterada</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>6</strong></td>
+                        <td class="text-right">6</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_24.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_27.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <span data-toggle="tooltip" title="stepdefs.deveRetornarStatusCodeDeDeletadaComSucesso()">
+                                <a href="pages/step-scenarios/step_0923551027.html">deve retornar status code de deletada com sucesso</a>
+                            </span>
+                        </td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right">0</td>
+                        <td class="text-right">1</td>
+                        <td class="text-right">0</td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_30.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">
+                                <a href="pages/scenario-detail/scenario_30.html">0m 00s 000ms</a>
+                        </td>
+                        <td class="text-right small">0m 00s 000ms</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+    </main>
+
+<footer class="footer navbar-dark">
+    <div class="container-fluid">
+        <span>Cluecumber Report Plugin version 2.5.0 - Report generated on 2021-01-12 14:00:08.</span>
+    </div>
+</footer>    </body>
+    </html>
+

@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
         glue = "steps",
         plugin = { "pretty", "html:src/test/resources/relatorios",
                 "json:src/test/resources/reports/cucumber.json",
-                "junit:src/test/resources/reports/cucumber.xml"}
+                "junit:src/test/resources/reports/cucumber.xml",
+                "json:target/cucumber-report/cucumber.json"}
 )
 
 public class Runner {

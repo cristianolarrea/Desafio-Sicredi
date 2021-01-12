@@ -38,7 +38,7 @@ public class stepdefs implements Constants {
     @When("^consulto um \"([^\"]*)\"$")
     public void consulto_um(String arg1) {
         cpfConsultado = arg1;
-        response = requestSpecification.get("/" + cpfConsultado);
+        response = requestSpecification.get("/" + cpfConsultado).prettyPeek();
     }
 
     @Then("^recebo o status code de cpf com restrição$")
@@ -60,7 +60,7 @@ public class stepdefs implements Constants {
 
     @When("^consulto o CPF gerado$")
     public void consultoOCPFGerado() {
-        response = requestSpecification.get("/" + cpfGerado);
+        response = requestSpecification.get("/" + cpfGerado).prettyPeek();
     }
 
     @Then("^recebo o status code de CPF sem restrição$")
@@ -88,7 +88,7 @@ public class stepdefs implements Constants {
 
     @When("^solicito criar uma simulação$")
     public void solicitoCriarUmaSimulação() {
-        response = requestSpecification.post("http://localhost:8080/api/v1/simulacoes");
+        response = requestSpecification.post("http://localhost:8080/api/v1/simulacoes").prettyPeek();
     }
 
     @Then("^deve retornar status code de simulação adicionada$")
@@ -139,7 +139,7 @@ public class stepdefs implements Constants {
         GeraCpf geraCpf = new GeraCpf();
         cpfGerado = geraCpf.cpf(false);
         SimulacoesMetodos simulacoesMetodos = new SimulacoesMetodos();
-        String body = simulacoesMetodos.configurarSimulacao(cpfGerado, "Jo@o $ilva", "testes@teste.com", 20000f, 35, false );
+        String body = simulacoesMetodos.configurarSimulacaoNomeInt(cpfGerado, 12345, "testes@teste.com", 20000f, 35, false );
         requestSpecification = given().body(body).contentType(APP_CONTENT_TYPE);
     }
 
@@ -239,7 +239,7 @@ public class stepdefs implements Constants {
 
     @And("^solicito consultar todas as simulaçoes cadastradas$")
     public void solicitoConsultarTodasAsSimulaçoesCadastradas() {
-        response = requestSpecification.get("http://localhost:8080/api/v1/simulacoes");
+        response = requestSpecification.get("http://localhost:8080/api/v1/simulacoes").prettyPeek();
     }
 
     @Then("^deve retornar uma lista com as simulações cadastradas$")
@@ -250,12 +250,11 @@ public class stepdefs implements Constants {
 
     @And("^solicito alterar a simulação$")
     public void solicitoAlterarASimulação() {
-        response = requestSpecification.put("http://localhost:8080/api/v1/simulacoes/" + cpfGerado);
+        response = requestSpecification.put("http://localhost:8080/api/v1/simulacoes/" + cpfGerado).prettyPeek();
     }
 
     @Then("^deve retornar status code de simulação alterada$")
     public void deveRetornarStatusCodeDeSimulaçãoAlterada() {
-        response.then().log().all();
         assertEquals(200, response.statusCode());
     }
 
@@ -321,7 +320,7 @@ public class stepdefs implements Constants {
 
     @When("^solicito deletar a simulação$")
     public void solicitoDeletarASimulação() {
-        response = requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idSimulacao);
+        response = requestSpecification.delete("http://localhost:8080/api/v1/simulacoes/" + idSimulacao).prettyPeek();
     }
 
     @Then("^deve retornar status code de deletada com sucesso$")

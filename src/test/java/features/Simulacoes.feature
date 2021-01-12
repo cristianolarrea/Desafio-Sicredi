@@ -58,7 +58,7 @@ Feature: Simulacoes
     When solicito criar uma simulação
     Then deve retornar status code de simulação com problema e a mensagem de erro de nome
 
-  Scenario: Retornar erro quando criar simulação com erro em email
+  Scenario: Retornar erro quando criar simulação email inválido
     Given que configuro uma simulação com erro no formato do email
     When solicito criar uma simulação
     Then deve retornar status code de simulação com problema e a mensagem de erro de email
